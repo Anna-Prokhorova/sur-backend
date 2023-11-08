@@ -1,0 +1,17 @@
+[
+  {
+    "id": "subcompetency-id-1",
+    "name": "Подкомпетенция1",
+    "competencyId": "competency-id-1"
+  },
+  {
+    "id": "subcompetency-id-2",
+    "name": "Подкомпетенция2",
+    "competencyId": "competency-id-2"
+  },
+  {
+    "id": "subcompetency-id-3",
+    "name": "Подкомпетенция3",
+    "competencyId": "competency-id-3"
+  }
+]

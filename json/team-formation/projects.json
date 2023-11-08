@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": "project-id-0",
+      "projectCode": "02.43.12",
+      "projectName": "Дооснощение потоков УПВ",
+      "programName": "Программа 2: \"Нефтеконтроль\"",
+      "portfolioName": "КПАП",
+      "executive": {
+        "id": "user-id-0",
+        "name": "Константинопольский А.А",
+        "img": "/assets/avatar.svg",
+        "positionId": "position-id-0"
+      },
+      "projectDateStart": "2023-09-27T13:24:01+03:00",
+      "projectDateEnd": "2023-09-28T13:24:01+03:00",
+      "projectMembers": ["/assets/avatar.svg"],
+      "status": "team_formed",
+      "projectDescription": "Описание проекта",
+      "projectGoal": "Цель проекта",
+      "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
+      "projectLink": "https://smp.gazprom-neft.local/UPV_project",
+      "favorite": true
+    },
+    {
+      "id": "project-id-1",
+      "projectCode": "04.56.78",
+      "projectName": "Расширение производства",
+      "programName": "Программа 3: \"Производство\"",
+      "portfolioName": "Инженерные проекты",
+      "executive": {
+        "id": "user-id-1",
+        "name": "Иванов Иван Иванович",
+        "img": "/assets/avatar.svg",
+        "positionId": "position-id-1"
+      },
+      "projectDateStart": "2023-10-15T10:00:00+03:00",
+      "projectDateEnd": "2023-10-20T15:30:00+03:00",
+      "projectMembers": ["/assets/avatar.svg", "/assets/avatar.svg"],
+      "status": "team_forming",
+      "projectDescription": "Описание проекта 1",
+      "projectGoal": "Цель проекта 1",
+      "projectTasks": "1. Планирование производства 2. Закупка оборудования",
+      "projectLink": "https://smp.gazprom-neft.local/UPV_project",
+      "favorite": false
+    },
+    {
+      "id": "project-id-2",
+      "projectCode": "08.90.12",
+      "projectName": "Запуск нового продукта",
+      "programName": "Программа 2: \"Разработка продуктов\"",
+      "portfolioName": "Новые продукты",
+      "executive": {
+        "id": "user-id-2",
+        "name": "Петров Петр Петрович",
+        "img": "/assets/avatar.svg",
+        "positionId": "position-id-0"
+      },
+      "projectDateStart": "2023-11-05T09:00:00+03:00",
+      "projectDateEnd": "2023-11-15T17:00:00+03:00",
+      "projectMembers": [
+        "/assets/avatar.svg",
+        "/assets/avatar.svg",
+        "/assets/avatar.svg",
+        "/assets/avatar.svg",
+        "/assets/avatar.svg"
+      ],
+      "status": "project_finished",
+      "projectDescription": "Описание проекта 2",
+      "projectGoal": "Цель проекта 2",
+      "projectTasks": "1. Разработка продукта 2. Тестирование",
+      "projectLink": "https://smp.gazprom-neft.local/UPV_project",
+      "favorite": false
+    }
+  ]
+}

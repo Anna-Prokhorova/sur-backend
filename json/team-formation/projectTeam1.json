@@ -1,0 +1,70 @@
+{
+  "projectTeam": [
+    {
+      "requestId": "request-id-0",
+      "name": "Иванов Иван Викторович",
+      "mail": "Ivanov.IV@company.ru",
+      "img": "/assets/avatar.svg",
+      "projectRoleId": "project-role-id-0",
+      "positionId": "position-id-0",
+      "load": 0.5,
+      "onProjectDateStart": "2023-09-27T13:24:01+03:00",
+      "onProjectDateEnd": "2023-09-30T13:24:01+03:00",
+      "status": "on_approval",
+      "description": "Описание задач, которые будет выполнять сотрудник",
+      "comment": "Комментарий заявки",
+      "recruitmentId": "recruitment-id-0",
+      "commentAnswer": "Комментарий анкеты",
+      "answers": [
+        {
+          "answerId": "answer-id-0",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "requestId": "request-id-1",
+      "name": "Петров Петр Петрович",
+      "mail": "Petrov.PP@company.ru",
+      "img": "/assets/avatar.svg",
+      "projectRoleId": "project-role-id-1",
+      "positionId": "position-id-1",
+      "load": 0.7,
+      "onProjectDateStart": "2023-10-15T09:00:00+03:00",
+      "onProjectDateEnd": "2023-10-18T17:00:00+03:00",
+      "status": "approved",
+      "description": "Описание задач, которые будет выполнять сотрудник",
+      "comment": "Комментарий заявки",
+      "recruitmentId": "recruitment-id-1",
+      "commentAnswer": "Комментарий анкеты",
+      "answers": [
+        {
+          "answerId": "answer-id-1",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "requestId": "request-id-2",
+      "name": "Сидоров Сидор Сидорович",
+      "mail": "Sidorov.SS@company.ru",
+      "img": "/assets/avatar.svg",
+      "projectRoleId": "project-role-id-2",
+      "positionId": "position-id-2",
+      "load": 0.8,
+      "onProjectDateStart": "2023-11-05T08:30:00+03:00",
+      "onProjectDateEnd": "2023-11-10T16:00:00+03:00",
+      "status": "on_project",
+      "description": "Описание задач, которые будет выполнять сотрудник",
+      "comment": "Комментарий заявки",
+      "recruitmentId": "recruitment-id-2",
+      "commentAnswer": "Комментарий анкеты",
+      "answers": [
+        {
+          "answerId": "answer-id-2",
+          "value": "3"
+        }
+      ]
+    }
+  ]
+}

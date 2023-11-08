@@ -1,0 +1,125 @@
+{
+  "employees": [
+    {
+      "id": "employee-id-0",
+      "name": "Иванов Иван Викторович",
+      "img": "/assets/avatar.svg",
+      "mail": "Ivanov.IV@company.com",
+      "phone": ["(999)99999"],
+      "employeeNumber": "191144",
+      "rating": 4.9,
+      "lineManager": {
+        "name": "Петров Николай Николаевич",
+        "mail": "petrov.nn@company.com",
+        "img": "/assets/avatar.svg",
+        "phone": ["(999)99999"],
+        "positionId": "position-id-0"
+      },
+      "functionalManager": {
+        "name": "Мясников Владимир Анатольевич",
+        "mail": "myasnikov.va@company.com",
+        "img": "/assets/avatar.svg",
+        "phone": ["(999)99999"],
+        "positionId": "position-id-0"
+      },
+      "employeeType": "Производственный персонал",
+      "employeeCategory": "Специалисты",
+      "capex": "текст аналитики capex",
+      "positionId": "position-id-0",
+      "adress": "644040, Омская обл, г Омск, пр-кт Губкина, д. 1",
+      "cityId": "city-id-1",
+      "regionId": "region-id-0",
+      "countryId": "country-id-0",
+      "businessDirection": "БН Переработка нефти",
+      "block": "БЛПС",
+      "organizationId": "organization-id-0",
+      "structuralUnitsId": ["structural-unit-id-0"],
+      "roles": [
+        {
+          "roleTypeId": "role-type-id-0",
+          "optionSpecification": "Экспертная",
+          "functionId": "function-id-0",
+          "specializationId": "specialization-id-0",
+          "roleLevelId": "role-level-id-0",
+          "roleNameId": "role-name-id-0",
+          "resourcePoolId": "resource-pool-id-0",
+          "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+          "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "roleTypeId": "role-type-id-1",
+          "optionSpecification": "Экспертная",
+          "functionId": "function-id-1",
+          "specializationId": "specialization-id-1",
+          "roleLevelId": "role-level-id-1",
+          "roleNameId": "role-name-id-1",
+          "resourcePoolId": "resource-pool-id-1",
+          "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+          "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ],
+      "competenceId": ["competency-id-0"],
+      "relocationType": "READY",
+      "relocationsId": ["relocation-id-0"],
+      "education": "Высшее",
+      "scienceDegree": "научная степень",
+      "educationLevel": "Магистратура",
+      "academicTitle": "Ученое звание"
+    },
+    {
+      "id": "employee-id-1",
+      "name": "Петров Петр Петрович",
+      "img": "/assets/avatar.svg",
+      "mail": "Ivanov.IV@company.com",
+      "phone": ["(999)99999"],
+      "employeeNumber": "191144",
+      "rating": 4.9,
+      "lineManager": {
+        "name": "Петров Николай Николаевич",
+        "mail": "petrov.nn@company.com",
+        "img": "/assets/avatar.svg",
+        "phone": ["(999)99999"],
+        "positionId": "position-id-0"
+      },
+      "functionalManager": {
+        "name": "Мясников Владимир Анатольевич",
+        "mail": "myasnikov.va@company.com",
+        "img": "/assets/avatar.svg",
+        "phone": ["(999)99999"],
+        "positionId": "position-id-0"
+      },
+      "employeeType": "Производственный персонал",
+      "employeeCategory": "Специалисты",
+      "capex": "текст аналитики capex",
+      "positionId": "position-id-0",
+      "adress": "644040, Омская обл, г Омск, пр-кт Губкина, д. 1",
+      "cityId": "city-id-0",
+      "regionId": "region-id-0",
+      "countryId": "country-id-0",
+      "businessDirection": "БН Переработка нефти",
+      "block": "БЛПС",
+      "organizationId": "organization-id-0",
+      "structuralUnitsId": ["structural-unit-id-0"],
+      "roles": [
+        {
+          "roleTypeId": "role-type-id-0",
+          "optionSpecification": "Экспертная",
+          "functionId": "function-id-0",
+          "specializationId": "specialization-id-0",
+          "roleLevelId": "role-level-id-0",
+          "roleNameId": "role-name-id-0",
+          "resourcePoolId": "resource-pool-id-0",
+          "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+          "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ],
+      "competenceId": ["competency-id-1"],
+      "relocationType": "READY",
+      "relocationsId": ["relocation-id-0"],
+      "education": "Высшее",
+      "scienceDegree": "научная степень",
+      "educationLevel": "Магистратура",
+      "academicTitle": "Ученое звание"
+    }
+  ]
+}

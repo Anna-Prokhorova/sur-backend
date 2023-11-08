@@ -1,0 +1,14 @@
+[
+  {
+    "id": "resource-pool-id-1",
+    "name": "ресурсныйПул1"
+  },
+  {
+    "id": "resource-pool-id-2",
+    "name": "ресурсныйПул2"
+  },
+  {
+    "id": "resource-pool-id-3",
+    "name": "ресурсныйПул3"
+  }
+]

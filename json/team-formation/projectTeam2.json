@@ -1,0 +1,26 @@
+{
+  "projectTeam": [
+    {
+      "requestId": "request-id-0",
+      "name": "Иванов Иван Викторович",
+      "mail": "Ivanov.IV@company.ru",
+      "img": "/assets/avatar.svg",
+      "projectRoleId": "project-role-id-0",
+      "positionId": "position-id-0",
+      "load": 0.5,
+      "onProjectDateStart": "2023-09-27T13:24:01+03:00",
+      "onProjectDateEnd": "2023-09-30T13:24:01+03:00",
+      "status": "on_approval",
+      "description": "Описание задач, которые будет выполнять сотрудник",
+      "comment": "Комментарий заявки",
+      "recruitmentId": "recruitment-id-0",
+      "commentAnswer": "Комментарий анкеты",
+      "answers": [
+        {
+          "answerId": "answer-id-0",
+          "value": "5"
+        }
+      ]
+    }
+  ]
+}
