@@ -1,0 +1,53 @@
+{
+  "workload": [
+    {
+      "id": "054e89ba-c243-11ed-99e5-00505692a275",
+      "projectId": "",
+      "projectCode": "02.43.12",
+      "projectName": "R&D Менеджер",
+      "requests": [
+        {
+          "requestId": "",
+          "requestStatus": "",
+          "periods": [
+            {
+              "period": "1",
+              "loadFTE": "0,5",
+              "loadDay": "12",
+              "periodDateStart": "2023-01-27T13:24:01+03:00",
+              "periodDateEnd": "2023-01-28T13:24:01+03:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a5f4e16a-b673-11ed-8512-00505692a275",
+      "projectId": "",
+      "projectCode": "02.43.12",
+      "projectName": "Тестовая",
+      "requests": [
+        {
+          "requestId": "",
+          "requestStatus": "",
+          "periods": [
+            {
+              "period": "1",
+              "loadFTE": "0,5",
+              "loadDay": "12",
+              "periodDateStart": "2023-01-12T21:00:00Z",
+              "periodDateEnd": "2023-01-22T20:59:59Z"
+            },
+            {
+              "period": "3",
+              "loadFTE": "0,1",
+              "loadDay": "3",
+              "periodDateStart": "2023-03-25T20:59:59Z",
+              "periodDateEnd": "2023-03-28T20:59:59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

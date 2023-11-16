@@ -1,0 +1,40 @@
+[
+  {
+    "id": "user-id-0",
+    "loading": 0.5,
+    "status": "team_forming",
+    "workFormat": "По договору",
+    "requestAuthor": {
+      "name": "Иванов Иван Викторович",
+      "positionId": "position-id-0",
+      "img": "/assets/avatar.svg"
+    },
+    "requestedEmployee": {
+      "name": "Иванов Иван Викторович",
+      "positionId": "position-id-0",
+      "img": "/assets/avatar.svg"
+    },
+    "project": {
+      "id": "project-id-0",
+      "projectCode": "02.43.12",
+      "projectName": "Дооснощение потоков УПВ",
+      "programName": "Программа 2: \"Нефтеконтроль\"",
+      "portfolioName": "КПАП",
+      "executive": {
+        "id": "user-id-0",
+        "name": "Константинопольский А.А",
+        "img": "/assets/avatar.svg",
+        "positionId": "position-id-0"
+      },
+      "projectDateStart": "2023-09-27T13:24:01+03:00",
+      "projectDateEnd": "2023-09-28T13:24:01+03:00",
+      "projectMembers": ["/assets/avatar.svg"],
+      "status": "team_formed",
+      "projectDescription": "Описание проекта",
+      "projectGoal": "Цель проекта",
+      "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
+      "projectLink": "https://smp.gazprom-neft.local/UPV_project",
+      "favorite": true
+    }
+  }
+]
