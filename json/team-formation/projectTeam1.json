@@ -13,7 +13,7 @@
       "status": "on_approval",
       "description": "Описание задач, которые будет выполнять сотрудник",
       "comment": "Комментарий заявки",
-      "recruitmentId": "recruitment-id-0",
+      "recruitmentId": "recruitments-id-100",
       "commentAnswer": "Комментарий анкеты",
       "answers": [
         {
@@ -35,7 +35,7 @@
       "status": "approved",
       "description": "Описание задач, которые будет выполнять сотрудник",
       "comment": "Комментарий заявки",
-      "recruitmentId": "recruitment-id-1",
+      "recruitmentId": "recruitments-id-00",
       "commentAnswer": "Комментарий анкеты",
       "answers": [
         {
@@ -57,7 +57,7 @@
       "status": "on_project",
       "description": "Описание задач, которые будет выполнять сотрудник",
       "comment": "Комментарий заявки",
-      "recruitmentId": "recruitment-id-2",
+      "recruitmentId": "recruitments-id-00",
       "commentAnswer": "Комментарий анкеты",
       "answers": [
         {
