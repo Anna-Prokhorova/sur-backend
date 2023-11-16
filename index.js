@@ -170,6 +170,16 @@ app.get("/api_frontend/catalogs/list/reasons", (req, res) => {
   sendAnswer(res, json);
 });
 
+app.get("/api_frontend/getRequestResources", (req, res) => {
+  const json = getJson("list", "request-resources");
+  sendAnswer(res, json);
+});
+
+app.get("/api_frontend/workloads", (req, res) => {
+  const json = getJson(`gant${req.query.id}`, "request-resources");
+  sendAnswer(res, json);
+});
+
 app.post("/api_frontend/favorites/write", (req, res) => {
   const json = getJson("success", "team-formation");
   sendAnswer(res, json);
