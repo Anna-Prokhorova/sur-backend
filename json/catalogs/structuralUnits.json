@@ -1,40 +1,34 @@
 [
   {
-    "id": "structural-unit-id-1",
+    "id": "structural-unit-id-0",
     "name": "Подразделение 1",
     "children": [
       {
-        "id": "structural-unit-id-1",
+        "id": "structural-unit-id-00",
         "name": "Подразделение 2",
-        "children": [
-          {}
-        ]
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "structural-unit-id-1",
+    "name": "Подразделение 3",
+    "children": [
+      {
+        "id": "structural-unit-id-10",
+        "name": "Подразделение 4",
+        "children": []
       }
     ]
   },
   {
     "id": "structural-unit-id-2",
-    "name": "Подразделение 3",
-    "children": [
-      {
-        "id": "structural-unit-id-2",
-        "name": "Подразделение 4",
-        "children": [
-          {}
-        ]
-      }
-    ]
-  },
-  {
-    "id": "structural-unit-id-3",
     "name": "Подразделение 5",
     "children": [
       {
-        "id": "structural-unit-id-3",
+        "id": "structural-unit-id-20",
         "name": "Подразделение 6",
-        "children": [
-          {}
-        ]
+        "children": []
       }
     ]
   }

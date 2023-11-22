@@ -1,14 +1,14 @@
 [
   {
-    "id": "roles-type-id-1",
+    "id": "roles-type-id-0",
     "name": "Руководитель"
   },
   {
-    "id": "roles-type-id-2",
+    "id": "roles-type-id-1",
     "name": "Зам. руководителя"
   },
   {
-    "id": "roles-type-id-3",
+    "id": "roles-type-id-2",
     "name": "Зам. зам. руководителя"
   }
 ]

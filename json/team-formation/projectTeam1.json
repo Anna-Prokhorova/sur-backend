@@ -1,68 +1,110 @@
 {
-  "projectTeam": [
+  "requests": [
     {
       "requestId": "request-id-0",
+      "projectId": "project-id-0",
       "name": "Иванов Иван Викторович",
       "mail": "Ivanov.IV@company.ru",
       "img": "/assets/avatar.svg",
       "projectRoleId": "project-role-id-0",
       "positionId": "position-id-0",
+      "roleNameId": "roles-name-id-0",
       "load": 0.5,
-      "onProjectDateStart": "2023-09-27T13:24:01+03:00",
-      "onProjectDateEnd": "2023-09-30T13:24:01+03:00",
-      "status": "on_approval",
-      "description": "Описание задач, которые будет выполнять сотрудник",
-      "comment": "Комментарий заявки",
-      "recruitmentId": "recruitments-id-100",
-      "commentAnswer": "Комментарий анкеты",
-      "answers": [
+      "dateStart": "2023-09-27T13:24:01+03:00",
+      "dateEnd": "2023-09-30T13:24:01+03:00",
+      "status": "ON_APPROVAL",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "recruitmentId": "recruitments-id-00",
+      "rating": {
+        "ratingList": [
+          {
+            "answerId": "answer-id-0",
+            "order": 1
+          }
+        ],
+        "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "history": [
         {
-          "answerId": "answer-id-0",
-          "value": "5"
+          "status": "ON_APPROVAL",
+          "statusDate": "2024-02-17T11:24:45+03:00",
+          "reasonId": "reason-id-0",
+          "comment": "Сотрудник на больничном"
         }
       ]
     },
     {
       "requestId": "request-id-1",
+      "projectId": "project-id-1",
       "name": "Петров Петр Петрович",
       "mail": "Petrov.PP@company.ru",
       "img": "/assets/avatar.svg",
       "projectRoleId": "project-role-id-1",
       "positionId": "position-id-1",
+      "roleNameId": "roles-name-id-1",
       "load": 0.7,
-      "onProjectDateStart": "2023-10-15T09:00:00+03:00",
-      "onProjectDateEnd": "2023-10-18T17:00:00+03:00",
-      "status": "approved",
-      "description": "Описание задач, которые будет выполнять сотрудник",
-      "comment": "Комментарий заявки",
-      "recruitmentId": "recruitments-id-00",
-      "commentAnswer": "Комментарий анкеты",
-      "answers": [
+      "dateStart": "2023-10-01T13:24:01+03:00",
+      "dateEnd": "2023-10-05T13:24:01+03:00",
+      "status": "APPROVED",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "recruitmentId": "recruitments-id-01",
+      "rating": {
+        "ratingList": [
+          {
+            "answerId": "answer-id-1",
+            "order": 2
+          }
+        ],
+        "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "history": [
         {
-          "answerId": "answer-id-1",
-          "value": "4"
+          "status": "REVISION",
+          "statusDate": "2024-02-18T11:24:45+03:00",
+          "reasonId": "reason-id-0",
+          "comment": "Сотрудник на доработке"
+        },
+        {
+          "status": "APPROVED",
+          "statusDate": "2024-02-18T11:24:45+03:00",
+          "reasonId": "reason-id-1",
+          "comment": "Сотрудник подтвержден"
         }
       ]
     },
     {
       "requestId": "request-id-2",
+      "projectId": "project-id-2",
       "name": "Сидоров Сидор Сидорович",
       "mail": "Sidorov.SS@company.ru",
       "img": "/assets/avatar.svg",
       "projectRoleId": "project-role-id-2",
       "positionId": "position-id-2",
+      "roleNameId": "roles-name-id-2",
       "load": 0.8,
-      "onProjectDateStart": "2023-11-05T08:30:00+03:00",
-      "onProjectDateEnd": "2023-11-10T16:00:00+03:00",
-      "status": "on_project",
-      "description": "Описание задач, которые будет выполнять сотрудник",
-      "comment": "Комментарий заявки",
-      "recruitmentId": "recruitments-id-00",
-      "commentAnswer": "Комментарий анкеты",
-      "answers": [
+      "dateStart": "2023-10-06T13:24:01+03:00",
+      "dateEnd": "2023-10-10T13:24:01+03:00",
+      "status": "DENIED",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "recruitmentId": "recruitments-id-100",
+      "rating": {
+        "ratingList": [
+          {
+            "answerId": "answer-id-2",
+            "order": 3
+          }
+        ],
+        "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "history": [
         {
-          "answerId": "answer-id-2",
-          "value": "3"
+          "status": "DENIED",
+          "statusDate": "2024-02-19T11:24:45+03:00",
+          "reasonId": "reason-id-2",
+          "comment": "Сотрудник не соответствует требованиям"
         }
       ]
     }

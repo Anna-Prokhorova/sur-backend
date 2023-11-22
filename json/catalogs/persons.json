@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user-id-0",
+    "img": "/assets/avatar.svg",
+    "name": "Иванов Иван Иванович"
+  },
+  {
+    "id": "user-id-1",
+    "img": "/assets/avatar.svg",
+    "name": "Петров Петр Петрович"
+  },
+  {
+    "id": "user-id-2",
+    "img": "/assets/avatar.svg",
+    "name": "Андреев Андрей Андреевич"
+  },
+  {
+    "id": "user-id-3",
+    "img": "/assets/avatar.svg",
+    "name": "Иванченко Иван Иванович"
+  }
+]

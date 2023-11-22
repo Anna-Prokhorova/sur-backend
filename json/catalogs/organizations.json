@@ -1,16 +1,27 @@
 [
   {
+    "id": "organization-id-0",
+    "name": "Компания 5",
+    "structuralUnitsId": "structural-unit-id-0",
+    "children": [
+      {
+        "id": "organization-id-00",
+        "name": "Компания 6",
+        "structuralUnitsId": "structural-unit-id-00",
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "organization-id-1",
     "name": "Компания 1",
     "structuralUnitsId": "structural-unit-id-1",
     "children": [
       {
-        "id": "organization-id-1",
+        "id": "organization-id-10",
         "name": "Компания 2",
-        "structuralUnitsId": "structural-unit-id-1",
-        "children": [
-          {}
-        ]
+        "structuralUnitsId": "structural-unit-id-10",
+        "children": []
       }
     ]
   },
@@ -20,27 +31,10 @@
     "structuralUnitsId": "structural-unit-id-2",
     "children": [
       {
-        "id": "organization-id-2",
+        "id": "organization-id-20",
         "name": "Компания 4",
-        "structuralUnitsId": "structural-unit-id-2",
-        "children": [
-          {}
-        ]
-      }
-    ]
-  },
-  {
-    "id": "organization-id-3",
-    "name": "Компания 5",
-    "structuralUnitsId": "structural-unit-id-3",
-    "children": [
-      {
-        "id": "organization-id-3",
-        "name": "Компания 6",
-        "structuralUnitsId": "structural-unit-id-3",
-        "children": [
-          {}
-        ]
+        "structuralUnitsId": "structural-unit-id-20",
+        "children": []
       }
     ]
   }

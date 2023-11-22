@@ -1,24 +1,36 @@
 {
-  "projectTeam": [
+  "requests": [
     {
       "requestId": "request-id-0",
+      "projectId": "project-id-0",
       "name": "Иванов Иван Викторович",
       "mail": "Ivanov.IV@company.ru",
       "img": "/assets/avatar.svg",
       "projectRoleId": "project-role-id-0",
       "positionId": "position-id-0",
+      "roleNameId": "roles-name-id-0",
       "load": 0.5,
-      "onProjectDateStart": "2023-09-27T13:24:01+03:00",
-      "onProjectDateEnd": "2023-09-30T13:24:01+03:00",
-      "status": "on_approval",
-      "description": "Описание задач, которые будет выполнять сотрудник",
-      "comment": "Комментарий заявки",
+      "dateStart": "2023-09-27T13:24:01+03:00",
+      "dateEnd": "2023-09-30T13:24:01+03:00",
+      "status": "ON_APPROVAL",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "recruitmentId": "recruitments-id-00",
-      "commentAnswer": "Комментарий анкеты",
-      "answers": [
+      "rating": {
+        "ratingList": [
+          {
+            "answerId": "answer-id-0",
+            "order": 1
+          }
+        ],
+        "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "history": [
         {
-          "answerId": "answer-id-0",
-          "value": "5"
+          "status": "ON_APPROVAL",
+          "statusDate": "2024-02-17T11:24:45+03:00",
+          "reasonId": "reason-id-0",
+          "comment": "Сотрудник на больничном"
         }
       ]
     }

@@ -3,5 +3,10 @@
     "id": "reason-id-0",
     "name": "Скорректировать период",
     "type": "REVISION"
+  },
+  {
+    "id": "reason-id-1",
+    "name": "Сотрудник на больничном",
+    "type": "DENIED "
   }
 ]
