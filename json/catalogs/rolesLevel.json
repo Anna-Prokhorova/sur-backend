@@ -1,14 +1,14 @@
 [
   {
-    "id": "roles-level-id-0",
+    "id": "role-level-id-0",
     "name": "L1"
   },
   {
-    "id": "roles-level-id-1",
+    "id": "role-level-id-1",
     "name": "L2"
   },
   {
-    "id": "roles-level-id-2",
+    "id": "role-level-id-2",
     "name": "L3"
   }
 ]

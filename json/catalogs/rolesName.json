@@ -1,14 +1,14 @@
 [
   {
-    "id": "roles-name-id-0",
+    "id": "role-name-id-0",
     "name": "Производство катализаторов"
   },
   {
-    "id": "roles-name-id-1",
+    "id": "role-name-id-1",
     "name": "Производство двигателей"
   },
   {
-    "id": "roles-name-id-2",
+    "id": "role-name-id-2",
     "name": "Производство электрооборудования"
   }
 ]

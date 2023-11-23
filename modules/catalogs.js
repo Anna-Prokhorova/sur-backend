@@ -56,7 +56,7 @@ catalogsRoutes.get(
 catalogsRoutes.get(
   "/api_frontend/catalogs/list/subspecializations",
   (req, res) => {
-    const json = getJson("specializations", "catalogs");
+    const json = getJson("subSpecializations", "catalogs");
     sendAnswer(res, json);
   }
 );
