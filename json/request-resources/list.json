@@ -5,7 +5,7 @@
       "name": "Иванов Иван Викторович",
       "mail": "Ivanov.IV@company.ru",
       "img": "/assets/avatar.svg",
-      "projectRoleId": "roles-type-id-1",
+      "projectRoleId": "role-type-id-1",
       "positionId": "880e2eca-c3d1-11ed-9c9c-00505692a275",
       "roleNameId": "b7dec2fc-73e1-11ee-9fd1-00505692a275",
       "load": 0.5,
