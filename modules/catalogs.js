@@ -7,7 +7,7 @@ const util = require("./util");
 const { getJson, sendAnswer } = util;
 const catalogsRoutes = express.Router();
 
-catalogsRoutes.get("/api_frontend/catalogs/users/current", (req, res) => {
+catalogsRoutes.get("/api_frontend/getCurrentUser", (req, res) => {
   const json = getJson(`current-user`, "team-formation");
   sendAnswer(res, json);
 });
