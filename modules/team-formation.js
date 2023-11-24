@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const { getJson, sendAnswer } = util;
 const teamFormationRoutes = express.Router();
 
-teamFormationRoutes.get("/api_frontend/getProjects", (req, res) => {
+teamFormationRoutes.get("/api_frontend/catalogs/list/projects", (req, res) => {
   const json = getJson(`projects`, "team-formation");
   sendAnswer(res, json);
 });
@@ -22,7 +22,7 @@ teamFormationRoutes.post(
   }
 );
 
-teamFormationRoutes.get("/api_frontend/getEmployees", (req, res) => {
+teamFormationRoutes.post("/api_frontend/persons/list", (req, res) => {
   const json = getJson(`employees`, "team-formation");
   sendAnswer(res, json);
 });
