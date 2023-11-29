@@ -1,7 +1,7 @@
 {
   "requests": [
     {
-      "requestId": "request-id-0",
+      "requestId": "request-id-3",
       "projectId": "project-id-0",
       "name": "Иванов Иван Викторович",
       "mail": "Ivanov.IV@company.ru",
@@ -18,15 +18,6 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "recruitmentId": "recruitments-id-00",
-      "rating": {
-        "ratingList": [
-          {
-            "answerId": "answer-id-0",
-            "order": 1
-          }
-        ],
-        "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
       "history": [
         {
           "status": "ON_APPROVAL",
