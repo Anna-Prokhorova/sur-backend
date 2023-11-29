@@ -8,8 +8,11 @@ const { getJson, sendAnswer, processErrors, sendAnswerFast } = util;
 const teamFormationRoutes = express.Router();
 
 teamFormationRoutes.get("/api_frontend/catalogs/list/projects", (req, res) => {
-  const json = getJson(`projects`, "team-formation");
-  sendAnswer(res, json);
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`projects`, "team-formation");
+    sendAnswer(res, json);
+  }
 });
 
 teamFormationRoutes.post(
@@ -17,14 +20,20 @@ teamFormationRoutes.post(
   bodyParser.json(),
   (req, res) => {
     const projectId = Number(req.body.projectId.split("-")[2]);
-    const json = getJson(`projectTeam${projectId + 1}`, "team-formation");
-    sendAnswer(res, json);
+    const isError = processErrors(res);
+    if (!isError) {
+      const json = getJson(`projectTeam${projectId + 1}`, "team-formation");
+      sendAnswer(res, json);
+    }
   }
 );
 
 teamFormationRoutes.post("/api_frontend/persons/list", (req, res) => {
-  const json = getJson(`employees`, "team-formation");
-  sendAnswer(res, json);
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`employees`, "team-formation");
+    sendAnswer(res, json);
+  }
 });
 
 teamFormationRoutes.post("/api_frontend/favorites/write", (req, res) => {
