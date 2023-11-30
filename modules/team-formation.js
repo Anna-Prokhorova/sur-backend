@@ -49,6 +49,7 @@ teamFormationRoutes.post(
   bodyParser.json(),
   async (req, res) => {
     let targetRequest;
+    let targetEmployee;
     const fileTeam1 = getJson("projectTeam1", "team-formation");
     const fileTeam2 = getJson("projectTeam2", "team-formation");
     const fileTeam3 = getJson("projectTeam3", "team-formation");
@@ -60,10 +61,12 @@ teamFormationRoutes.post(
 
     const fileEmployees = getJson("employees", "team-formation");
     const allEmployees = JSON.parse(fileEmployees);
-    const targetEmployee =
-      allEmployees.find((employee) => {
-        return employee.id === req.body.requestBody.employeeId;
-      }) || null;
+    if (req.body.requestBody) {
+      targetEmployee =
+        allEmployees.find((employee) => {
+          return employee.id === req.body.requestBody.employeeId;
+        }) || null;
+    }
 
     if (req.body.id) {
       targetRequest =
@@ -91,12 +94,14 @@ teamFormationRoutes.post(
         requestId: targetRequest
           ? targetRequest.requestId
           : `request-id-${allRequests.length}`,
-        projectId: req.body.requestBody.projectId,
+        projectId: targetRequest
+          ? targetRequest.projectId
+          : req.body.requestBody.projectId,
         name: targetRequest ? targetRequest.name : targetEmployee.name,
         mail: targetRequest ? targetRequest.mail : targetEmployee.mail,
         employeeId: targetRequest
           ? targetRequest.employeeId
-          : targetEmployee.employeeId,
+          : targetEmployee.id,
         employeeNumber: targetRequest
           ? targetRequest.employeeNumber
           : targetEmployee.employeeNumber,
@@ -104,21 +109,40 @@ teamFormationRoutes.post(
           ? targetRequest.employeeRating
           : targetEmployee.employeeRating,
         img: targetRequest ? targetRequest.img : targetEmployee.img,
-        projectRoleId: req.body.requestBody.projectRoleId,
+        projectRoleId: targetRequest
+          ? targetRequest.projectRoleId
+          : req.body.requestBody.projectRoleId,
         positionId: targetRequest
           ? targetRequest.positionId
           : targetEmployee.positionId,
         roleNameId: targetRequest
           ? targetRequest.roleNameId
           : targetEmployee.roleNameId,
-        load: req.body.requestBody.load,
-        dateStart: req.body.requestBody.dateStart,
-        dateEnd: req.body.requestBody.dateEnd,
+        load: targetRequest ? targetRequest.load : req.body.requestBody.load,
+        dateStart: targetRequest
+          ? targetRequest.dateStart
+          : req.body.requestBody.dateStart,
+        dateEnd: targetRequest
+          ? targetRequest.dateEnd
+          : req.body.requestBody.dateEnd,
         status: "ON_APPROVAL",
-        description: req.body.requestBody.description,
-        comment: req.body.requestBody.comment,
-        recruitmentId: req.body.requestBody.recruitmentId,
-        rating: req.body.rating,
+        description: targetRequest
+          ? targetRequest.description
+          : req.body.requestBody.description,
+        comment: targetRequest
+          ? targetRequest.comment
+          : req.body.requestBody.comment,
+        recruitmentId: targetRequest
+          ? targetRequest.recruitmentId
+          : req.body.requestBody.recruitmentId,
+        rating: targetRequest
+          ? targetRequest.rating
+            ? targetRequest.rating
+            : {
+                ratingList: req.body.rating.ratingList,
+                commentRating: req.body.rating.commentRating,
+              }
+          : req.body.rating,
         history: targetRequest
           ? [
               ...targetRequest.history,
