@@ -9,6 +9,7 @@ const http = require("http");
 const teamFormation = require("./modules/team-formation.js");
 const catalogs = require("./modules/catalogs.js");
 const requestResources = require("./modules/request-resources.js");
+const shared = require("./modules/shared.js");
 
 const app = express();
 const routes = express.Router();
@@ -19,6 +20,7 @@ routes.use(express.static(path.join(__dirname)));
 routes.use(catalogs);
 routes.use(teamFormation);
 routes.use(requestResources);
+routes.use(shared);
 
 app.use(routes);
 

@@ -28,14 +28,6 @@ teamFormationRoutes.post(
   }
 );
 
-teamFormationRoutes.post("/api_frontend/persons/list", (req, res) => {
-  const isError = processErrors(res);
-  if (!isError) {
-    const json = getJson(`employees`, "team-formation");
-    sendAnswer(res, json);
-  }
-});
-
 teamFormationRoutes.post("/api_frontend/favorites/write", (req, res) => {
   const isError = processErrors(res);
   if (!isError) {

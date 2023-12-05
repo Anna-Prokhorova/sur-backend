@@ -1,0 +1,164 @@
+[
+  {
+    "id": "employee-id-0",
+    "name": "Иванов Иван Викторович",
+    "img": "/assets/avatar.svg",
+    "mail": "Ivanov.IV@company.com",
+    "phone": ["(999)99999"],
+    "employeeNumber": "191144",
+    "rating": 4.9,
+    "lineManager": {
+      "name": "Петров Николай Николаевич",
+      "mail": "petrov.nn@company.com",
+      "img": "/assets/avatar.svg",
+      "phone": ["(999)99999"],
+      "positionId": "position-id-0"
+    },
+    "functionalManager": {
+      "name": "Мясников Владимир Анатольевич",
+      "mail": "myasnikov.va@company.com",
+      "img": "/assets/avatar.svg",
+      "phone": ["(999)99999"],
+      "positionId": "position-id-0"
+    },
+    "employeeType": "Производственный персонал",
+    "employeeCategory": "Специалисты",
+    "capex": "текст аналитики capex",
+    "positionId": "position-id-0",
+    "adress": "644040, Омская обл, г Омск, пр-кт Губкина, д. 1",
+    "cityId": "city-id-0",
+    "regionId": "region-id-0",
+    "countryId": "country-id-0",
+    "businessDirection": "БН Переработка нефти",
+    "block": "БЛПС",
+    "organizationId": "organization-id-00",
+    "structuralUnitsId": ["structural-unit-id-0", "structural-unit-id-00"],
+    "roles": [
+      {
+        "roleTypeId": "role-type-id-0",
+        "optionSpecification": "Экспертная",
+        "functionId": "function-id-0",
+        "specializationId": "specialization-id-0",
+        "subSpecializationId": "subspecialization-id-0",
+        "roleLevelId": "role-level-id-0",
+        "roleNameId": "role-name-id-0",
+        "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+        "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ],
+    "competenceId": ["competency-id-0"],
+    "relocationType": "READY",
+    "relocationsId": [],
+    "education": "Высшее",
+    "scienceDegree": "научная степень",
+    "educationLevel": "Магистратура",
+    "academicTitle": "Ученое звание",
+    "detailed": {
+      "gender": "FEMALE",
+      "birthday": "09.02.1991",
+      "age": 32,
+      "citizenship": "Россия",
+      "reserve": true,
+      "efficiencyScore": 3,
+      "contributionScore": 4,
+      "score360": 3,
+      "performanceScore": 3,
+      "essay": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "skills": ["Целеустремленность"],
+      "cathedraName": "Наименование кафедры",
+      "coachingStatus": "Статус внутреннего тренерства",
+      "coachingType": "Тип внутреннего тренерства",
+      "awards": [
+        {
+          "awardGroup": "Внутренняя",
+          "awardName": "За лучшие показатели в работе"
+        }
+      ],
+      "trainingPrograms": [
+        {
+          "trainingName": "Название курса",
+          "trainingCategory": "Категория провайдера",
+          "trainingProvider": "Провайдер",
+          "trainingLink": "Ссылка на описание курса",
+          "trainingType": "Тип обучения",
+          "trainingCostType": "Тип распределения затрат",
+          "trainingTrainer": "Тренер",
+          "trainingLevel": "Уровень образования",
+          "trainingFormat": "Формат проведения (Фактическая)"
+        }
+      ],
+      "grades": [
+        {
+          "gradeCriterion": "Критерий оценки",
+          "gradeMethod": "Метод оценки",
+          "gradeTool": "Инструмент оценки",
+          "gradeParameter": "Параметр критерия оценки",
+          "gradeValue": 5
+        }
+      ],
+      "experience": [
+        {
+          "experienceDateStart": "2022-10-11T16:26:07+03:00",
+          "experienceDateEnd": "2023-10-11T16:26:07+03:00",
+          "experienceUntilNow": true,
+          "experienceCompany": "Компания",
+          "experiencePosition": "Должность",
+          "experienceDuties": "Должностные обязанности"
+        }
+      ],
+      "basicEducation": [
+        {
+          "basicEducationDateStart": "2022-10-11T16:26:07+03:00",
+          "basicEducationDateEnd": "2023-10-11T16:26:07+03:00",
+          "basicEducationPlace": "Учебное заведение",
+          "basicEducationFaculty": "Факультет",
+          "basicEducationSpeciality": "Специальность"
+        }
+      ],
+      "trainingCourses": [
+        {
+          "trainingCoursesDateStart": "2022-10-11T16:26:07+03:00",
+          "trainingCoursesDateEnd": "2023-10-11T16:26:07+03:00",
+          "trainingCoursesPlace": "Учебная организация",
+          "trainingCoursesCourse": "Наименование курса"
+        }
+      ],
+      "languageAbsence": true,
+      "languages": [
+        {
+          "language": "Язык",
+          "languageLevel": "Уровень"
+        }
+      ],
+      "targetRoleNotPlanned": true,
+      "targetRole": [
+        {
+          "targetRoleName": "Целевая роль",
+          "targetRoleType": "Тип",
+          "targetRoleFunction": "Функция",
+          "targetRoleFamilySpecialties": "Семейство специальностей/Профессиональное направление"
+        }
+      ],
+      "projects": [
+        {
+          "projectYear": "2023-10-11T16:26:07+03:00",
+          "projectName": "Проект",
+          "projectCompany": "Компания",
+          "projectRole": "Роль",
+          "projectDesription": "Описание целей и результатов"
+        }
+      ],
+      "achievements": ["lorem"],
+      "workBook": [
+        {
+          "workBookCompany": "Наименование компании",
+          "workBookDivision": "Подразделение",
+          "workBookSpeciality": "Специальность",
+          "workBookDateStart": "Дата устройства",
+          "workBookDateEnd": "Дата увольнения",
+          "workBookDismissalReason": "Причина увольнения"
+        }
+      ]
+    }
+  }
+]
