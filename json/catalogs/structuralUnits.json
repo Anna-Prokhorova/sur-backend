@@ -7,6 +7,11 @@
         "id": "structural-unit-id-00",
         "name": "Подразделение 2",
         "children": []
+      },
+      {
+        "id": "structural-unit-id-01",
+        "name": "Подразделение 10",
+        "children": []
       }
     ]
   },

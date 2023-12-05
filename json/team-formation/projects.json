@@ -1,92 +1,90 @@
-{
-  "projects": [
-    {
-      "id": "project-id-0",
-      "favorite": true,
-      "projectCode": "02.43.12",
-      "name": "Дооснощение потоков УПВ",
-      "programName": "Программа 2: \"Нефтеконтроль\"",
-      "portfolioName": "КПАП",
-      "executive": {
-        "id": "user-id-0",
-        "name": "Константинопольский А.А",
-        "img": "/assets/avatar.svg",
-        "positionId": "position-id-0",
-        "mail": "Ivanov.II@company.com",
-        "phone": "(999) 99999"
-      },
-      "dateStart": "2023-09-27T13:24:01+03:00",
-      "dateEnd": "2023-09-28T13:24:01+03:00",
-      "projectMembers": [
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg"
-      ],
-      "status": "team_formed",
-      "projectDescription": "Описание проекта",
-      "projectGoal": "Цель проекта",
-      "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
-      "projectLink": "https://smp.gazprom-neft.local/UPV_project"
+[
+  {
+    "id": "project-id-0",
+    "favorite": true,
+    "projectCode": "02.43.12",
+    "name": "Дооснощение потоков УПВ",
+    "programName": "Программа 2: \"Нефтеконтроль\"",
+    "portfolioName": "КПАП",
+    "executive": {
+      "id": "user-id-0",
+      "name": "Константинопольский А.А",
+      "img": "/assets/avatar.svg",
+      "positionId": "position-id-0",
+      "mail": "Ivanov.II@company.com",
+      "phone": "(999) 99999"
     },
-    {
-      "id": "project-id-1",
-      "favorite": false,
-      "projectCode": "01.23.45",
-      "name": "Разработка нового продукта",
-      "programName": "Программа 1: \"Инновации\"",
-      "portfolioName": "Исследовательские проекты",
-      "executive": {
-        "id": "user-id-1",
-        "name": "Смирнова Е.В",
-        "img": "/assets/avatar.svg",
-        "positionId": "position-id-1",
-        "mail": "Smirnova.EV@company.com",
-        "phone": "(888) 88888"
-      },
-      "dateStart": "2023-10-10T09:15:00+03:00",
-      "dateEnd": "2023-10-15T18:45:00+03:00",
-      "projectMembers": ["/assets/avatar.svg", "/assets/avatar.svg"],
-      "status": "team_forming",
-      "projectDescription": "Описание нового продукта",
-      "projectGoal": "Цель разработки нового продукта",
-      "projectTasks": "1. Проведение маркетингового анализа 2. Проектирование и разработка",
-      "projectLink": "https://smp.gazprom-neft.local/new_product_project"
+    "dateStart": "2023-09-27T13:24:01+03:00",
+    "dateEnd": "2023-09-28T13:24:01+03:00",
+    "projectMembers": [
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg"
+    ],
+    "status": "team_formed",
+    "projectDescription": "Описание проекта",
+    "projectGoal": "Цель проекта",
+    "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
+    "projectLink": "https://smp.gazprom-neft.local/UPV_project"
+  },
+  {
+    "id": "project-id-1",
+    "favorite": false,
+    "projectCode": "01.23.45",
+    "name": "Разработка нового продукта",
+    "programName": "Программа 1: \"Инновации\"",
+    "portfolioName": "Исследовательские проекты",
+    "executive": {
+      "id": "user-id-1",
+      "name": "Смирнова Е.В",
+      "img": "/assets/avatar.svg",
+      "positionId": "position-id-1",
+      "mail": "Smirnova.EV@company.com",
+      "phone": "(888) 88888"
     },
-    {
-      "id": "project-id-2",
-      "favorite": true,
-      "projectCode": "03.56.78",
-      "name": "Оптимизация производственных процессов",
-      "programName": "Программа 3: \"Эффективность\"",
-      "portfolioName": "Производственные улучшения",
-      "executive": {
-        "id": "user-id-2",
-        "name": "Петров А.С",
-        "img": "/assets/avatar.svg",
-        "positionId": "position-id-2",
-        "mail": "Petrov.AS@company.com",
-        "phone": "(777) 77777"
-      },
-      "dateStart": "2023-11-01T14:30:00+03:00",
-      "dateEnd": "2023-11-15T17:00:00+03:00",
-      "projectMembers": [
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg",
-        "/assets/avatar.svg"
-      ],
-      "status": "project_finished",
-      "projectDescription": "Оптимизация рабочих процессов в производстве",
-      "projectGoal": "Повышение эффективности производства",
-      "projectTasks": "1. Анализ текущих процессов 2. Внедрение новых технологий",
-      "projectLink": "https://smp.gazprom-neft.local/process_optimization_project"
-    }
-  ]
-}
+    "dateStart": "2023-10-10T09:15:00+03:00",
+    "dateEnd": "2023-10-15T18:45:00+03:00",
+    "projectMembers": ["/assets/avatar.svg", "/assets/avatar.svg"],
+    "status": "team_forming",
+    "projectDescription": "Описание нового продукта",
+    "projectGoal": "Цель разработки нового продукта",
+    "projectTasks": "1. Проведение маркетингового анализа 2. Проектирование и разработка",
+    "projectLink": "https://smp.gazprom-neft.local/new_product_project"
+  },
+  {
+    "id": "project-id-2",
+    "favorite": true,
+    "projectCode": "03.56.78",
+    "name": "Оптимизация производственных процессов",
+    "programName": "Программа 3: \"Эффективность\"",
+    "portfolioName": "Производственные улучшения",
+    "executive": {
+      "id": "user-id-2",
+      "name": "Петров А.С",
+      "img": "/assets/avatar.svg",
+      "positionId": "position-id-2",
+      "mail": "Petrov.AS@company.com",
+      "phone": "(777) 77777"
+    },
+    "dateStart": "2023-11-01T14:30:00+03:00",
+    "dateEnd": "2023-11-15T17:00:00+03:00",
+    "projectMembers": [
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg",
+      "/assets/avatar.svg"
+    ],
+    "status": "project_finished",
+    "projectDescription": "Оптимизация рабочих процессов в производстве",
+    "projectGoal": "Повышение эффективности производства",
+    "projectTasks": "1. Анализ текущих процессов 2. Внедрение новых технологий",
+    "projectLink": "https://smp.gazprom-neft.local/process_optimization_project"
+  }
+]

@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const errorProbability = process.env.ERROR_PROBABILITY || 0.1;
 
 function getJson(fileName, folder = "") {
   const jsonPath = folder
@@ -18,10 +19,20 @@ function sendAnswer(res, json) {
   if (!json) {
     send404Error(res);
   } else {
+    res.setHeader("Content-Type", "application/json");
     setTimeout(() => {
-      res.setHeader("Content-Type", "application/json");
       res.status(200).send(json);
     }, 300);
+  }
+}
+
+function sendAnswerFast(res, json) {
+  if (!json) {
+    send404Error(res);
+  } else {
+    res.setHeader("Content-Type", "application/json");
+
+    res.status(200).send(json);
   }
 }
 
@@ -31,7 +42,22 @@ function send404Error(res) {
   }, 300);
 }
 
+function generateError() {
+  const num = Math.random();
+  return num < errorProbability;
+}
+
+function processErrors(res) {
+  const isError = generateError();
+  if (isError) {
+    send404Error(res);
+  }
+  return isError;
+}
+
 module.exports = {
   getJson,
   sendAnswer,
+  processErrors,
+  sendAnswerFast,
 };

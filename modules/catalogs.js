@@ -4,12 +4,15 @@ const path = require("path");
 
 const util = require("./util");
 
-const { getJson, sendAnswer } = util;
+const { getJson, sendAnswer, processErrors } = util;
 const catalogsRoutes = express.Router();
 
 catalogsRoutes.get("/api_frontend/catalogs/users/current", (req, res) => {
-  const json = getJson(`current-user`, "team-formation");
-  sendAnswer(res, json);
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`current-user`, "team-formation");
+    sendAnswer(res, json);
+  }
 });
 
 catalogsRoutes.get("/api_frontend/catalogs/list/regions", (req, res) => {
