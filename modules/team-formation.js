@@ -19,11 +19,17 @@ teamFormationRoutes.post(
   "/api_frontend/requests/list",
   bodyParser.json(),
   (req, res) => {
-    const projectId = Number(req.body.projectId.split("-")[2]);
-    const isError = processErrors(res);
-    if (!isError) {
-      const json = getJson(`projectTeam${projectId + 1}`, "team-formation");
+    const displayType = req.body.displayType;
+    if (displayType === "REQUESTS") {
+      const json = getJson("list", "request-resources");
       sendAnswer(res, json);
+    } else {
+      const projectId = Number(req.body.projectId.split("-")[2]);
+      const isError = processErrors(res);
+      if (!isError) {
+        const json = getJson(`projectTeam${projectId + 1}`, "team-formation");
+        sendAnswer(res, json);
+      }
     }
   }
 );
