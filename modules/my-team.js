@@ -4,7 +4,7 @@ const path = require("path");
 const util = require("./util");
 const bodyParser = require("body-parser");
 
-const { getJson, sendAnswer, processErrors, sendAnswerFast } = util;
+const { getJson, sendAnswer, processErrors, sendAnswerFast, sendFile } = util;
 const myTeamRoutes = express.Router();
 
 myTeamRoutes.get("/api_frontend/templates/list", (req, res) => {
@@ -64,6 +64,13 @@ myTeamRoutes.delete("/api_frontend/templates/delete", (req, res) => {
     }
     const json = JSON.stringify(req.query);
     sendAnswerFast(res, json);
+  }
+});
+
+myTeamRoutes.get("/api_frontend/persons/list/xlsx", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    sendFile(res, "test.xlsx");
   }
 });
 
