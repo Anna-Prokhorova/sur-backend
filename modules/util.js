@@ -55,9 +55,25 @@ function processErrors(res) {
   return isError;
 }
 
+function sendFile(res, fileName) {
+  const filePath = path.join(__dirname, `../json/${fileName}`);
+  console.log("File path:", filePath);
+
+  res.set("Content-Disposition", "attachment");
+
+  res.sendFile(filePath, (err) => {
+    if (err) {
+      console.error("Error sending file:", err);
+      res.writeHead(400, { "Content-Type": "text/plain" });
+      res.end("ERROR File does not exist");
+    }
+  });
+}
+
 module.exports = {
   getJson,
   sendAnswer,
   processErrors,
   sendAnswerFast,
+  sendFile,
 };
