@@ -8,14 +8,13 @@
       "requests": [
         {
           "requestId": "2",
-          "requestStatus": "FOR_APPROVAL",
+          "requestStatus": "ON_APPROVAL",
           "periods": [
             {
               "period": "12",
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "awaiting_approval",
               "periodDateStart": "2022-12-12T21:00:00Z",
               "periodDateEnd": "2022-12-22T20:59:59Z"
             },
@@ -24,7 +23,6 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "under_revision",
               "periodDateStart": "2023-05-12T21:00:00Z",
               "periodDateEnd": "2023-05-22T20:59:59Z"
             },
@@ -33,7 +31,6 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "under_revision",
               "periodDateStart": "2023-09-22T21:00:00Z",
               "periodDateEnd": "2023-09-31T20:59:59Z"
             }
@@ -48,14 +45,14 @@
       "requests": [
         {
           "requestId": "1",
-          "requestStatus": "AGREED",
+          "requestStatus": "APPROVED",
           "periods": [
             {
               "period": "1",
               "loadFTE": "0.5",
               "loadDay": "10",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "under_revision",
+              "status": "REVISION",
               "periodDateStart": "2023-01-12T21:00:00Z",
               "periodDateEnd": "2023-01-22T20:59:59Z"
             },
@@ -64,7 +61,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "awaiting_approval",
+              "status": "ON_APPROVAL",
               "periodDateStart": "2023-03-12T21:00:00Z",
               "periodDateEnd": "2023-03-22T20:59:59Z"
             },
@@ -73,7 +70,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-06-22T21:00:00Z",
               "periodDateEnd": "2023-06-31T20:59:59Z"
             }
@@ -88,14 +85,14 @@
       "requests": [
         {
           "requestId": "3",
-          "requestStatus": "AGREED",
+          "requestStatus": "APPROVED",
           "periods": [
             {
               "period": "2",
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-02-12T21:00:00Z",
               "periodDateEnd": "2023-02-22T20:59:59Z"
             },
@@ -104,7 +101,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-04-12T21:00:00Z",
               "periodDateEnd": "2023-04-22T20:59:59Z"
             },
@@ -113,7 +110,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-07-22T21:00:00Z",
               "periodDateEnd": "2023-07-31T20:59:59Z"
             }
@@ -128,14 +125,14 @@
       "requests": [
         {
           "requestId": "4",
-          "requestStatus": "AGREED",
+          "requestStatus": "APPROVED",
           "periods": [
             {
               "period": "1",
               "loadFTE": "0.5",
               "loadDay": "10",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-01-12T21:00:00Z",
               "periodDateEnd": "2023-01-22T20:59:59Z"
             },
@@ -144,7 +141,7 @@
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-08-12T21:00:00Z",
               "periodDateEnd": "2023-08-22T20:59:59Z"
             },
@@ -153,7 +150,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-10-12T21:00:00Z",
               "periodDateEnd": "2023-10-22T20:59:59Z"
             },
@@ -162,7 +159,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2024-01-22T21:00:00Z",
               "periodDateEnd": "2024-01-31T20:59:59Z"
             }
@@ -177,14 +174,14 @@
       "requests": [
         {
           "requestId": "5",
-          "requestStatus": "AGREED",
+          "requestStatus": "APPROVED",
           "periods": [
             {
               "period": "1",
               "loadFTE": "0.5",
               "loadDay": "10",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-01-12T21:00:00Z",
               "periodDateEnd": "2023-01-22T20:59:59Z"
             },
@@ -193,7 +190,7 @@
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-08-12T21:00:00Z",
               "periodDateEnd": "2023-08-22T20:59:59Z"
             },
@@ -202,7 +199,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-10-12T21:00:00Z",
               "periodDateEnd": "2023-10-22T20:59:59Z"
             },
@@ -211,7 +208,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2024-01-22T21:00:00Z",
               "periodDateEnd": "2024-01-31T20:59:59Z"
             }
@@ -226,14 +223,14 @@
       "requests": [
         {
           "requestId": "6",
-          "requestStatus": "AGREED",
+          "requestStatus": "APPROVED",
           "periods": [
             {
               "period": "1",
               "loadFTE": "0.5",
               "loadDay": "10",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-01-12T21:00:00Z",
               "periodDateEnd": "2023-01-22T20:59:59Z"
             },
@@ -242,7 +239,7 @@
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-08-12T21:00:00Z",
               "periodDateEnd": "2023-08-22T20:59:59Z"
             },
@@ -251,7 +248,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-10-12T21:00:00Z",
               "periodDateEnd": "2023-10-22T20:59:59Z"
             },
@@ -260,7 +257,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2024-01-22T21:00:00Z",
               "periodDateEnd": "2024-01-31T20:59:59Z"
             }
@@ -275,14 +272,14 @@
       "requests": [
         {
           "requestId": "7",
-          "requestStatus": "AGREED",
+          "requestStatus": "APPROVED",
           "periods": [
             {
               "period": "1",
               "loadFTE": "0.5",
               "loadDay": "10",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-01-12T21:00:00Z",
               "periodDateEnd": "2023-01-22T20:59:59Z"
             },
@@ -291,7 +288,7 @@
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-08-12T21:00:00Z",
               "periodDateEnd": "2023-08-22T20:59:59Z"
             },
@@ -300,7 +297,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-10-12T21:00:00Z",
               "periodDateEnd": "2023-10-22T20:59:59Z"
             },
@@ -309,7 +306,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2024-01-22T21:00:00Z",
               "periodDateEnd": "2024-01-31T20:59:59Z"
             }
@@ -324,14 +321,14 @@
       "requests": [
         {
           "requestId": "8",
-          "requestStatus": "AGREED",
+          "requestStatus": "APPROVED",
           "periods": [
             {
               "period": "1",
               "loadFTE": "0.5",
               "loadDay": "10",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-01-12T21:00:00Z",
               "periodDateEnd": "2023-01-22T20:59:59Z"
             },
@@ -340,7 +337,7 @@
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-08-12T21:00:00Z",
               "periodDateEnd": "2023-08-22T20:59:59Z"
             },
@@ -349,7 +346,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2023-10-12T21:00:00Z",
               "periodDateEnd": "2023-10-22T20:59:59Z"
             },
@@ -358,7 +355,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "agreed",
+              "status": "APPROVED",
               "periodDateStart": "2024-01-22T21:00:00Z",
               "periodDateEnd": "2024-01-31T20:59:59Z"
             }

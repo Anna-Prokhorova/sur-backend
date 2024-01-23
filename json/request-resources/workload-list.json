@@ -16,7 +16,7 @@
           "requests": [
             {
               "requestId": "a5f4e16a-b673-11ed-8512-00505692a271",
-              "requestStatus": "FOR_APPROVAL",
+              "requestStatus": "ON_APPROVAL",
               "periods": [
                 {
                   "period": "12",
@@ -170,7 +170,7 @@
           "requests": [
             {
               "requestId": "a5f4e16a-b673-11ed-8512-00505692b271",
-              "requestStatus": "FOR_APPROVAL",
+              "requestStatus": "ON_APPROVAL",
               "periods": [
                 {
                   "period": "12",
