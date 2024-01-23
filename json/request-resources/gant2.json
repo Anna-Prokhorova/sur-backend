@@ -15,7 +15,7 @@
               "loadFTE": "0.1",
               "loadDay": "2",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "awaiting_approval",
+              "status": "agreed",
               "periodDateStart": "2022-12-12T21:00:00Z",
               "periodDateEnd": "2022-12-22T20:59:59Z"
             },
@@ -24,7 +24,7 @@
               "loadFTE": "0.3",
               "loadDay": "6",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "under_revision",
+              "status": "agreed",
               "periodDateStart": "2023-05-12T21:00:00Z",
               "periodDateEnd": "2023-05-22T20:59:59Z"
             },
@@ -33,7 +33,7 @@
               "loadFTE": "0.2",
               "loadDay": "4",
               "info": "24.07.2023 - 02.08.2023\nВозможно нужна ина для принятия решения\n\nЗагрузка: 50%",
-              "status": "under_revision",
+              "status": "agreed",
               "periodDateStart": "2023-09-22T21:00:00Z",
               "periodDateEnd": "2023-09-31T20:59:59Z"
             }
@@ -270,7 +270,7 @@
     },
     {
       "projectName": "Создание интегрированной системы пожарной безопасности",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a277",
+      "projectId": "a5f4e16a-b673-11ed-8512-00505692a276",
       "projectNumber": "02.43.12",
       "requests": [
         {
@@ -319,7 +319,7 @@
     },
     {
       "projectName": "Создание интегрированной системы пожарной безопасности",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a278",
+      "projectId": "a5f4e16a-b673-11ed-8512-00505692a276",
       "projectNumber": "02.43.12",
       "requests": [
         {
