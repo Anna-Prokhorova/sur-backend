@@ -1,0 +1,14 @@
+[
+    {
+        "id": "personnelCategory-id-0",
+        "name": "Административный персонал"
+    },
+    {
+        "id": "personnelCategory-id-1",
+        "name": "Производственный персонал"
+    },
+    {
+        "id": "personnelCategory-id-2",
+        "name": "Технический персонал"
+    }
+]

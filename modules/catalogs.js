@@ -20,6 +20,139 @@ catalogsRoutes.get("/api_frontend/catalogs/list/regions", (req, res) => {
   sendAnswer(res, json);
 });
 
+catalogsRoutes.get("/api_frontend/catalogs/list/citizenship", (req, res) => {
+  const json = getJson("citizenship", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/personnelType", (req, res) => {
+  const json = getJson("personnelType", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get(
+  "/api_frontend/catalogs/list/personnelCategory",
+  (req, res) => {
+    const json = getJson("personnelCategory", "catalogs");
+    sendAnswer(res, json);
+  }
+);
+
+catalogsRoutes.get("/api_frontend/catalogs/list/costType", (req, res) => {
+  const json = getJson("costType", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get(
+  "/api_frontend/catalogs/list/businessDirections",
+  (req, res) => {
+    const json = getJson("businessDirections", "catalogs");
+    sendAnswer(res, json);
+  }
+);
+
+catalogsRoutes.get("/api_frontend/catalogs/list/blocks", (req, res) => {
+  const json = getJson("blocks", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get(
+  "/api_frontend/catalogs/list/optionSpecifications",
+  (req, res) => {
+    const json = getJson("optionSpecifications", "catalogs");
+    sendAnswer(res, json);
+  }
+);
+
+catalogsRoutes.get(
+  "/api_frontend/catalogs/list/functionalDirections",
+  (req, res) => {
+    const json = getJson("functionalDirections", "catalogs");
+    sendAnswer(res, json);
+  }
+);
+
+catalogsRoutes.get("/api_frontend/catalogs/list/educations", (req, res) => {
+  const json = getJson("educations", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/scienceDegree", (req, res) => {
+  const json = getJson("scienceDegree", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/educationLevel", (req, res) => {
+  const json = getJson("educationLevel", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/skills", (req, res) => {
+  const json = getJson("skills", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/academicTitle", (req, res) => {
+  const json = getJson("academicTitle", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get(
+  "/api_frontend/catalogs/list/workBookCompany",
+  (req, res) => {
+    const json = getJson("workBookCompany", "catalogs");
+    sendAnswer(res, json);
+  }
+);
+
+catalogsRoutes.get(
+  "/api_frontend/catalogs/list/workBookSpeciality",
+  (req, res) => {
+    const json = getJson("workBookSpeciality", "catalogs");
+    sendAnswer(res, json);
+  }
+);
+
+catalogsRoutes.get("/api_frontend/catalogs/list/cathedraName", (req, res) => {
+  const json = getJson("cathedraName", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/coachingStatus", (req, res) => {
+  const json = getJson("coachingStatus", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/coachingType", (req, res) => {
+  const json = getJson("coachingType", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/reserveType", (req, res) => {
+  const json = getJson("reserveType", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/languageName", (req, res) => {
+  const json = getJson("languageName", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/languageLevel", (req, res) => {
+  const json = getJson("languageLevel", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/program", (req, res) => {
+  const json = getJson("program", "catalogs");
+  sendAnswer(res, json);
+});
+
+catalogsRoutes.get("/api_frontend/catalogs/list/portfolio", (req, res) => {
+  const json = getJson("portfolio", "catalogs");
+  sendAnswer(res, json);
+});
+
 catalogsRoutes.get("/api_frontend/catalogs/list/cities", (req, res) => {
   const json = getJson("cities", "catalogs");
   sendAnswer(res, json);

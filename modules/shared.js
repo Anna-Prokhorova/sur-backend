@@ -52,4 +52,82 @@ sharedRoutes.post(
   }
 );
 
+sharedRoutes.get("/api_frontend/candidateSearch/list", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`candidateSearchList`, "search-candidates");
+    sendAnswer(res, json);
+  }
+});
+
+sharedRoutes.post(
+  "/api_frontend/candidateSearch/getPositions",
+  bodyParser.json(),
+  (req, res) => {
+    const isError = processErrors(res);
+    if (!isError) {
+      const structuralUnits = getJson(
+        `candidateSearchList`,
+        "search-candidates"
+      );
+      const allStructuralUnits = JSON.parse(structuralUnits);
+      json = [];
+      allStructuralUnits.map((unit) => {
+        if (req.body.structuralUnits.includes(unit.id)) {
+          json.push({
+            id: unit.id,
+            positionName: unit.positionName,
+            positionUnit: unit.positionUnit,
+          });
+        }
+      });
+      sendAnswer(res, json);
+    }
+  }
+);
+sharedRoutes.post("/api_frontend/candidateSearch/search", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`search`, "search-candidates");
+    sendAnswer(res, json);
+  }
+});
+sharedRoutes.post("/api_frontend/candidateSearch/comparison", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`comparison`, "search-candidates");
+    sendAnswer(res, json);
+  }
+});
+
+sharedRoutes.delete(
+  "/api_frontend/candidateSearch/delete",
+  bodyParser.json(),
+  (req, res) => {
+    const isError = processErrors(res);
+    if (!isError) {
+      const requests = getJson(`candidateSearchList`, "search-candidates");
+      const allRequests = JSON.parse(requests);
+      const filteredRequests = allRequests.filter((request) => {
+        return request.id !== req.query.id;
+      });
+
+      try {
+        fs.writeFileSync(
+          path.join(
+            __dirname,
+            `../json/search-candidates/candidateSearchList.json`
+          ),
+          JSON.stringify([...filteredRequests])
+        );
+      } catch (error) {
+        console.error("Error processing the request:", error);
+        return send404Error(res);
+      }
+      const json = JSON.stringify(req.query);
+      sendAnswerFast(res, json);
+    }
+  }
+);
+
 module.exports = sharedRoutes;

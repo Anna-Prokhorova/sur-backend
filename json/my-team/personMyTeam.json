@@ -1,0 +1,149 @@
+{
+    "img360": "/assets/avatar.svg",
+    "essay": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "awards": [
+        {
+            "awardGroup": "Внутренняя",
+            "awardName": "За лучшие показатели в работе"
+        }
+    ],
+    "trainingPrograms": [
+        {
+            "trainingName": "Название курса",
+            "trainingCategory": "Категория провайдера",
+            "trainingProvider": "Провайдер",
+            "trainingLink": "Ссылка на описание курса",
+            "trainingType": "Тип обучения",
+            "trainingCostType": "Тип распределения затрат",
+            "trainingTrainer": "Тренер",
+            "trainingLevel": "Уровень образования",
+            "trainingFormat": "Формат проведения (Фактическая)"
+        }
+    ],
+    "trainingCourses": [
+        {
+            "trainingCoursesDateStart": "2022-10-11T16:26:07+03:00",
+            "trainingCoursesDateEnd": "2023-10-11T16:26:07+03:00",
+            "trainingCoursesPlace": "Учебная организация",
+            "trainingCoursesCourse": "Наименование курса"
+        }
+    ],
+    "grades": [
+        {
+            "gradeName": "Наименование оценки",
+            "gradeValue": 5
+        }
+    ],
+    "experience": [
+        {
+            "experienceDateStart": "2022-10-11T16:26:07+03:00",
+            "experienceDateEnd": "2023-10-11T16:26:07+03:00",
+            "experienceUntilNow": true,
+            "experienceCompany": "Компания",
+            "experiencePosition": "Должность",
+            "experienceDuties": "Должностные обязанности"
+        }
+    ],
+    "targetRoleNotPlanned": true,
+    "targetRole": [
+        {
+            "targetRoleName": "Целевая роль",
+            "targetRoleType": "Тип",
+            "targetRoleFunction": "Функция",
+            "targetRoleFamilySpecialties": "Семейство специальностей/Профессиональное направление"
+        }
+    ],
+    "projects": [
+        {
+            "projectYear": "2023-10-11T16:26:07+03:00",
+            "projectName": "Проект",
+            "projectCompany": "Компания",
+            "projectRole": "Роль",
+            "projectDesription": "Описание целей и результатов"
+        }
+    ],
+    "achievements": [
+        "lorem"
+    ],
+    "projectBasis": [
+        {
+            "projectCode": "",
+            "projectName": "",
+            "projectbusinessUnit": "",
+            "projectOrganization": "",
+            "programName": "",
+            "portfolioName": "",
+            "requests": [
+                {
+                    "dateStart": "2023-10-11T16:26:07+03:00",
+                    "dateEnd": "2023-10-11T16:26:07+03:00",
+                    "projectRole": "",
+                    "requestScore": 4,
+                    "commentary": ""
+                }
+            ]
+        }
+    ],
+    "basicEducation": [
+        {
+            "basicEducationDateStart": "2022-10-11T16:26:07+03:00",
+            "basicEducationDateEnd": "2023-10-11T16:26:07+03:00",
+            "basicEducationPlace": "Учебное заведение",
+            "basicEducationFaculty": "Факультет психологии",
+            "basicEducationSpeciality": "Специальность",
+            "basicEducationQualification": "Квалификация"
+        }
+    ],
+    "positions": [
+        {
+            "positionsId": "position-id-0",
+            "positionType": "MAIN",
+            "employeeType": "Производственный персонал",
+            "employeeCategory": "Специалисты",
+            "capex": "текст аналитики capex",
+            "position": "Должность сотрудника",
+            "adress": "644040, Омская обл, г Омск, пр-кт Губкина, д. 1",
+            "city": "Омск",
+            "region": "Омская область",
+            "country": "Россия",
+            "businessDirection": "БН Переработка нефти",
+            "block": "БЛПС",
+            "businessUnit": "Бизнес-единица",
+            "organization": "Компания",
+            "structuralUnits": [
+                "Подразделение 1"
+            ],
+            "roles": [
+                {
+                    "roleType": "Руководитель поекта",
+                    "optionSpecification": "Экспертная",
+                    "function": "Переработка нефти и газа (Механика)",
+                    "specialization": "Планирование ТОиР и ППОФ",
+                    "subSpecialization": "Оптимизация производственных процессов",
+                    "roleLevel": "L2",
+                    "roleName": "Специалист",
+                    "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+                    "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                }
+            ],
+            "lineManager": {
+                "name": "Петров Николай Николаевич",
+                "mail": "petrov.nn@company.com",
+                "img64": "/assets/avatar.svg",
+                "phone": [
+                    "(999)99999"
+                ],
+                "position": "Должность"
+            },
+            "functionalManager": {
+                "name": "Мясников Владимир Анатольевич",
+                "mail": "myasnikov.va@company.com",
+                "img64": "/assets/avatar.svg",
+                "phone": [
+                    "(999)55555"
+                ],
+                "position": "Должность"
+            }
+        }
+    ]
+}

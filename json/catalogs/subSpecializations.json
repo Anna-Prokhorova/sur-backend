@@ -1,14 +1,23 @@
 [
   {
     "id": "subspecialization-id-0",
-    "name": "Развитие стратегии маркетинга"
+    "name": "Развитие стратегии маркетинга",
+    "functionId": "function-id-0",
+    "functionalDirectionId": "functionalDirection-id-0",
+    "specializationId": "specialization-id-0"
   },
   {
     "id": "subspecialization-id-1",
-    "name": "Оптимизация производственных процессов"
+    "name": "Оптимизация производственных процессов",
+    "functionId": "function-id-1",
+    "functionalDirectionId": "functionalDirection-id-1",
+    "specializationId": "specialization-id-1"
   },
   {
     "id": "subspecialization-id-2",
-    "name": "Внедрение системы управления качеством"
+    "name": "Внедрение системы управления качеством",
+    "functionId": "function-id-2",
+    "functionalDirectionId": "functionalDirection-id-2",
+    "specializationId": "specialization-id-2"
   }
 ]

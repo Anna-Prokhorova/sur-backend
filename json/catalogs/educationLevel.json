@@ -1,0 +1,14 @@
+[
+    {
+        "id": "educationLevel-id-0",
+        "name": "Школа"
+    },
+    {
+        "id": "educationLevel-id-1",
+        "name": "Бакалавриат"
+    },
+    {
+        "id": "educationLevel-id-2",
+        "name": "Магистратура"
+    }
+]

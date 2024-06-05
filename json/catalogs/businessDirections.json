@@ -1,0 +1,14 @@
+[
+    {
+        "id": "businessDirection-id-0",
+        "name": "БН Переработка нефти"
+    },
+    {
+        "id": "businessDirection-id-1",
+        "name": "БН Оборудование и инженерия"
+    },
+    {
+        "id": "businessDirection-id-2",
+        "name": "БН Продажи и маркетинг"
+    }
+]

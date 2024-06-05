@@ -1,0 +1,17 @@
+{
+    "img360": "/assets/avatar.svg",
+    "basicEducation": [
+        {
+            "basicEducationDateStart": "2022-10-11T16:26:07+03:00",
+            "basicEducationDateEnd": "2023-10-11T16:26:07+03:00",
+            "basicEducationPlace": "Учебное заведение",
+            "basicEducationFaculty": "Факультет",
+            "basicEducationSpeciality": "Специальность",
+            "basicEducationQualification": "Квалификация"
+        }
+    ],
+    "education": "Высшее",
+    "scienceDegree": "Научная степень",
+    "educationLevel": "Уровень образования",
+    "academicTitle": "Ученое звание"
+}

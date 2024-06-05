@@ -1,0 +1,86 @@
+[
+    {
+        "id": "structural-unit-id-0",
+        "searchName": "00001",
+        "searchDate": "2022-10-11T16:26:07+03:00",
+        "searchType": "position",
+        "positionName": "Начальник департамента",
+        "positionUnit": [
+            "Подразделение 1"
+        ],
+        "roleName": "Роль",
+        "roleFunction": "Функция"
+    },
+    {
+        "id": "structural-unit-id-00",
+        "searchName": "00002",
+        "searchDate": "2022-10-11T16:26:07+03:00",
+        "searchType": "position",
+        "positionName": "Инженер",
+        "positionUnit": [
+            "Подразделение 2"
+        ],
+        "roleName": "Роль",
+        "roleFunction": "Функция"
+    },
+    {
+        "id": "structural-unit-id-01",
+        "searchName": "00003",
+        "searchDate": "2022-10-11T16:26:07+03:00",
+        "searchType": "position",
+        "positionName": "Главный инженер",
+        "positionUnit": [
+            "Подразделение 10"
+        ],
+        "roleName": "Роль",
+        "roleFunction": "Функция"
+    },
+    {
+        "id": "structural-unit-id-1",
+        "searchName": "00004",
+        "searchDate": "2022-10-11T16:26:07+03:00",
+        "searchType": "position",
+        "positionName": "Главный инженер",
+        "positionUnit": [
+            "Подразделение 3"
+        ],
+        "roleName": "Роль",
+        "roleFunction": "Функция"
+    },
+    {
+        "id": "structural-unit-id-10",
+        "searchName": "00005",
+        "searchDate": "2022-10-11T16:26:07+03:00",
+        "searchType": "position",
+        "positionName": "Главный инженер",
+        "positionUnit": [
+            "Подразделение 4"
+        ],
+        "roleName": "Роль",
+        "roleFunction": "Функция"
+    },
+    {
+        "id": "structural-unit-id-2",
+        "searchName": "00006",
+        "searchDate": "2022-10-11T16:26:07+03:00",
+        "searchType": "position",
+        "positionName": "Главный инженер",
+        "positionUnit": [
+            "Подразделение 5"
+        ],
+        "roleName": "Роль",
+        "roleFunction": "Функция"
+    },
+    {
+        "id": "structural-unit-id-20",
+        "searchName": "00007",
+        "searchDate": "2022-10-11T16:26:07+03:00",
+        "searchType": "position",
+        "positionName": "Главный инженер",
+        "positionUnit": [
+            "Подразделение 6"
+        ],
+        "roleName": "Роль",
+        "roleFunction": "Функция"
+    }
+]

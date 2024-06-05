@@ -1,0 +1,14 @@
+[
+    {
+        "id": "optionSpecification-id-0",
+        "name": "Экспертная"
+    },
+    {
+        "id": "optionSpecification-id-1",
+        "name": "Стандартная"
+    },
+    {
+        "id": "optionSpecification-id-2",
+        "name": "Расширенная"
+    }
+]

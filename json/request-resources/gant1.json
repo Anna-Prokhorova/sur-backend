@@ -2,7 +2,7 @@
   "workload": [
     {
       "projectName": "Дооснощение потоков УПВ",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a271",
+      "projectId": "project-id-0",
       "projectNumber": "02.43.12",
       "list": [],
       "requests": [
@@ -40,7 +40,7 @@
     },
     {
       "projectName": "Пакет ГК 2 пок.",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a272",
+      "projectId": "project-id-1",
       "projectNumber": "02.43.12",
       "requests": [
         {
@@ -80,7 +80,7 @@
     },
     {
       "projectName": "Наименование проекта / инициативы",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a273",
+      "projectId": "project-id-2",
       "projectNumber": "02.43.12",
       "requests": [
         {
@@ -120,7 +120,7 @@
     },
     {
       "projectName": "Создание интегрированной системы пожарной безопасности",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a274",
+      "projectId": "project-id-3",
       "projectNumber": "02.43.12",
       "requests": [
         {
@@ -169,7 +169,7 @@
     },
     {
       "projectName": "Создание интегрированной системы пожарной безопасности",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a275",
+      "projectId": "project-id-4",
       "projectNumber": "02.43.12",
       "requests": [
         {
@@ -218,7 +218,7 @@
     },
     {
       "projectName": "Создание интегрированной системы пожарной безопасности",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a276",
+      "projectId": "project-id-5",
       "projectNumber": "02.43.12",
       "requests": [
         {
@@ -267,7 +267,7 @@
     },
     {
       "projectName": "Создание интегрированной системы пожарной безопасности",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a277",
+      "projectId": "project-id-6",
       "projectNumber": "02.43.12",
       "requests": [
         {
@@ -316,7 +316,7 @@
     },
     {
       "projectName": "Создание интегрированной системы пожарной безопасности",
-      "projectId": "a5f4e16a-b673-11ed-8512-00505692a278",
+      "projectId": "project-id-7",
       "projectNumber": "02.43.12",
       "requests": [
         {
