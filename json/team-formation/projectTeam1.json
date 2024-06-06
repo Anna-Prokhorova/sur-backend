@@ -1,8 +1,7 @@
 [
   {
-    "requestId": "request-id-0",
+    "requestId": "0",
     "projectId": "project-id-0",
-    "employeeId": "employee-id-0",
     "name": "Иванов Иван Викторович",
     "mail": "Ivanov.IV@company.ru",
     "employeeNumber": "1234",
@@ -12,12 +11,21 @@
     "positionId": "position-id-0",
     "roleNameId": "role-name-id-0",
     "load": 0.5,
-    "dateStart": "2024-01-01T13:24:01+03:00",
-    "dateEnd": "2024-03-30T13:24:01+03:00",
+    "dateStart": "2023-09-27T13:24:01+03:00",
+    "dateEnd": "2023-09-30T13:24:01+03:00",
     "status": "ON_APPROVAL",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "recruitmentId": "recruitments-id-00",
+    "rating": {
+      "ratingList": [
+        {
+          "answerId": "answer-id-0",
+          "order": 1
+        }
+      ],
+      "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
     "history": [
       {
         "status": "ON_APPROVAL",
@@ -28,30 +36,44 @@
     ]
   },
   {
-    "requestId": "request-id-1",
+    "requestId": "1",
     "projectId": "project-id-1",
-    "employeeId": "employee-id-1",
     "name": "Петров Петр Петрович",
     "mail": "Petrov.PP@company.ru",
     "employeeNumber": "5678",
-    "employeeRating": 4,
+    "employeeRating": 4.6,
     "img": "/assets/avatar.svg",
     "projectRoleId": "project-role-id-1",
     "positionId": "position-id-1",
     "roleNameId": "role-name-id-1",
-    "load": 0.7,
-    "dateStart": "2023-11-01T13:24:01+03:00",
-    "dateEnd": "2023-12-20T13:24:01+03:00",
-    "status": "APPROVED",
+    "load": 0.5,
+    "dateStart": "2023-09-27T13:24:01+03:00",
+    "dateEnd": "2023-09-30T13:24:01+03:00",
+    "status": "ON_APPROVAL",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "recruitmentId": "recruitments-id-01",
+    "recruitmentId": "recruitments-id-00",
+    "rating": {
+      "ratingList": [
+        {
+          "answerId": "answer-id-1",
+          "order": 1
+        }
+      ],
+      "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
     "history": [
       {
         "status": "REVISION",
         "statusDate": "2024-02-18T11:24:45+03:00",
         "reasonId": "reason-id-0",
         "comment": "Сотрудник на доработке"
+      },
+      {
+        "status": "APPROVED",
+        "statusDate": "2024-02-17T11:24:45+03:00",
+        "reasonId": "reason-id-0",
+        "comment": "Сотрудник на больничном"
       },
       {
         "status": "APPROVED",
@@ -62,24 +84,32 @@
     ]
   },
   {
-    "requestId": "request-id-2",
+    "requestId": "2",
     "projectId": "project-id-2",
-    "employeeId": "employee-id-2",
     "name": "Сидоров Сидор Сидорович",
     "mail": "Sidorov.SS@company.ru",
     "employeeNumber": "8910",
-    "employeeRating": 3.5,
+    "employeeRating": 4.1,
     "img": "/assets/avatar.svg",
     "projectRoleId": "project-role-id-2",
     "positionId": "position-id-2",
     "roleNameId": "role-name-id-2",
-    "load": 0.8,
-    "dateStart": "2023-10-06T13:24:01+03:00",
-    "dateEnd": "2023-12-10T13:24:01+03:00",
-    "status": "DENIED",
+    "load": 0.5,
+    "dateStart": "2023-09-27T13:24:01+03:00",
+    "dateEnd": "2023-09-30T13:24:01+03:00",
+    "status": "APPROVED",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "recruitmentId": "recruitments-id-100",
+    "recruitmentId": "recruitments-id-00",
+    "rating": {
+      "ratingList": [
+        {
+          "answerId": "answer-id-2",
+          "order": 1
+        }
+      ],
+      "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
     "history": [
       {
         "status": "DENIED",
@@ -90,31 +120,37 @@
     ]
   },
   {
-    "requestId": "request-id-3",
-    "projectId": "project-id-0",
-    "employeeId": "employee-id-3",
+    "requestId": "3",
+    "projectId": "project-id-2",
     "name": "Игнатенко Игорь Игоревич",
     "mail": "Ignatenko.II@company.ru",
     "employeeNumber": "5678",
     "employeeRating": 4.8,
     "img": "/assets/avatar.svg",
-    "projectRoleId": "project-role-id-1",
+    "projectRoleId": "project-role-id-2",
     "positionId": "position-id-2",
-    "roleNameId": "role-name-id-0",
-    "load": 0.9,
-    "dateStart": "2023-08-01T13:24:01+03:00",
-    "dateEnd": "2023-11-01T13:24:01+03:00",
+    "roleNameId": "role-name-id-2",
+    "load": 0.5,
+    "dateStart": "2023-09-27T13:24:01+03:00",
+    "dateEnd": "2023-09-30T13:24:01+03:00",
     "status": "DONE",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "recruitmentId": "recruitments-id-102",
+    "recruitmentId": "recruitments-id-00",
     "rating": {
       "ratingList": [
-        { "answerId": "answer-id-0", "order": 5 },
-        { "answerId": "answer-id-1", "order": 4 },
-        { "answerId": "answer-id-2", "order": 3 },
-        { "answerId": "answer-id-3", "order": 2 },
-        { "answerId": "answer-id-4", "order": 1 }
+        {
+          "answerId": "answer-id-0",
+          "order": 5
+        },
+        {
+          "answerId": "answer-id-1",
+          "order": 4
+        },
+        {
+          "answerId": "answer-id-2",
+          "order": 3
+        }
       ],
       "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },

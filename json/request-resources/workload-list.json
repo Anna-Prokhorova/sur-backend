@@ -1,316 +1,92 @@
 {
-  "persons": [
-    {
-      "personName": "Иванов Иван Иванович",
-      "email": "k@gmail.ru",
-      "phone": "",
-      "url": "/assets/avatar.svg",
-      "positionId": "a5f4e16a-b673-11ed-8512-00505692a271312",
-      "personId": "a5f4e16a-b673-11ed-8512-00505692a271312",
-      "workload": [
+    "persons": [
         {
-          "projectName": "Дооснощение потоков УПВ",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692a271",
-          "projectNumber": "02.43.12",
-          "list": [],
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692a271",
-              "requestStatus": "ON_APPROVAL",
-              "periods": [
+            "personName": "Иванов Иван Иванович",
+            "email": "Ivanov.IV@company.ru",
+            "phone": "(999)888",
+            "position": "Инженер",
+            "workload": [
                 {
-                  "period": "12",
-                  "loadFTE": "0.1",
-                  "loadDay": "2",
-                  "periodDateStart": "2022-12-12T21:00:00Z",
-                  "periodDateEnd": "2022-12-22T20:59:59Z"
-                },
-                {
-                  "period": "5",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-05-12T21:00:00Z",
-                  "periodDateEnd": "2023-05-22T20:59:59Z"
-                },
-                {
-                  "period": "9",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2023-09-22T21:00:00Z",
-                  "periodDateEnd": "2023-09-31T20:59:59Z"
+                    "projectId": "project-id-1",
+                    "projectCode": "02.43.12",
+                    "projectName": "Пакет ГК 2 пок.",
+                    "requests": [
+                        {
+                            "requestId": "1",
+                            "requestStatus": "",
+                            "periods": [
+                                {
+                                    "period": "1",
+                                    "loadFTE": "5",
+                                    "loadDay": "11",
+                                    "periodDateStart": "2023-05-01T13:24:01+03:00",
+                                    "periodDateEnd": "2024-06-30T13:24:01+03:00"
+                                },
+                                {
+                                    "period": "2",
+                                    "loadFTE": "12",
+                                    "loadDay": "12",
+                                    "periodDateStart": "2023-06-01T13:24:01+03:00",
+                                    "periodDateEnd": "2024-07-30T13:24:01+03:00"
+                                },
+                                {
+                                    "period": "3",
+                                    "loadFTE": "20",
+                                    "loadDay": "12",
+                                    "periodDateStart": "2023-08-01T13:24:01+03:00",
+                                    "periodDateEnd": "2024-09-30T13:24:01+03:00"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
+            ]
         },
         {
-          "projectName": "Пакет ГК 2 пок.",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692a272",
-          "projectNumber": "02.43.12",
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692a272",
-              "requestStatus": "AGREED",
-              "periods": [
+            "personName": "Петров Петр Петрович",
+            "email": "Petrov.IV@company.ru",
+            "phone": "(999)999",
+            "position": "Главный инженер",
+            "workload": [
                 {
-                  "period": "1",
-                  "loadFTE": "0.5",
-                  "loadDay": "10",
-                  "periodDateStart": "2023-01-12T21:00:00Z",
-                  "periodDateEnd": "2023-01-22T20:59:59Z"
-                },
-                {
-                  "period": "3",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-03-12T21:00:00Z",
-                  "periodDateEnd": "2023-03-22T20:59:59Z"
-                },
-                {
-                  "period": "6",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2023-06-22T21:00:00Z",
-                  "periodDateEnd": "2023-06-31T20:59:59Z"
+                    "projectId": "project-id-0",
+                    "projectCode": "02.43.12",
+                    "projectName": "Дооснащение потоков УПВ",
+                    "requests": [
+                        {
+                            "requestId": "2",
+                            "requestStatus": "",
+                            "periods": [
+                                {
+                                    "period": "4",
+                                    "loadFTE": "7",
+                                    "loadDay": "12",
+                                    "periodDateStart": "2023-01-01T13:24:01+03:00",
+                                    "periodDateEnd": "2024-02-30T13:24:01+03:00"
+                                },
+                                {
+                                    "period": "5",
+                                    "loadFTE": "32",
+                                    "loadDay": "12",
+                                    "periodDateStart": "2023-02-01T13:24:01+03:00",
+                                    "periodDateEnd": "2024-03-30T13:24:01+03:00"
+                                },
+                                {
+                                    "period": "6",
+                                    "loadFTE": "10",
+                                    "loadDay": "12",
+                                    "periodDateStart": "2023-03-01T13:24:01+03:00",
+                                    "periodDateEnd": "2024-04-30T13:24:01+03:00"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "projectName": "Наименование проекта / инициативы",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692a273",
-          "projectNumber": "02.43.12",
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692a272",
-              "requestStatus": "AGREED",
-              "periods": [
-                {
-                  "period": "2",
-                  "loadFTE": "0.1",
-                  "loadDay": "2",
-                  "periodDateStart": "2023-02-12T21:00:00Z",
-                  "periodDateEnd": "2023-02-22T20:59:59Z"
-                },
-                {
-                  "period": "4",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-04-12T21:00:00Z",
-                  "periodDateEnd": "2023-04-22T20:59:59Z"
-                },
-                {
-                  "period": "7",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2023-07-22T21:00:00Z",
-                  "periodDateEnd": "2023-07-31T20:59:59Z"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "projectName": "Создание интегрированной системы пожарной безопасности",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692a274",
-          "projectNumber": "02.43.12",
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692a272",
-              "requestStatus": "AGREED",
-              "periods": [
-                {
-                  "period": "1",
-                  "loadFTE": "0.5",
-                  "loadDay": "10",
-                  "periodDateStart": "2023-01-12T21:00:00Z",
-                  "periodDateEnd": "2023-01-22T20:59:59Z"
-                },
-                {
-                  "period": "8",
-                  "loadFTE": "0.1",
-                  "loadDay": "2",
-                  "periodDateStart": "2023-08-12T21:00:00Z",
-                  "periodDateEnd": "2023-08-22T20:59:59Z"
-                },
-                {
-                  "period": "10",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-10-12T21:00:00Z",
-                  "periodDateEnd": "2023-10-22T20:59:59Z"
-                },
-                {
-                  "period": "1",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2024-01-22T21:00:00Z",
-                  "periodDateEnd": "2024-01-31T20:59:59Z"
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    },
-    {
-      "personName": "Иванов Иван Иванович",
-      "email": "k@gmail.ru",
-      "phone": "",
-      "url": "/assets/avatar.svg",
-      "positionId": "a5f4e16a-b673-11ed-8512-00505692b271312",
-      "personId": "a5f4e16a-b673-11ed-8512-00505692b271312",
-      "workload": [
-        {
-          "projectName": "Дооснощение потоков УПВ",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692b271",
-          "projectNumber": "02.43.12",
-          "list": [],
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692b271",
-              "requestStatus": "ON_APPROVAL",
-              "periods": [
-                {
-                  "period": "12",
-                  "loadFTE": "0.1",
-                  "loadDay": "2",
-                  "periodDateStart": "2022-12-12T21:00:00Z",
-                  "periodDateEnd": "2022-12-22T20:59:59Z"
-                },
-                {
-                  "period": "5",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-05-12T21:00:00Z",
-                  "periodDateEnd": "2023-05-22T20:59:59Z"
-                },
-                {
-                  "period": "9",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2023-09-22T21:00:00Z",
-                  "periodDateEnd": "2023-09-31T20:59:59Z"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "projectName": "Пакет ГК 2 пок.",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692b272",
-          "projectNumber": "02.43.12",
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692b272",
-              "requestStatus": "AGREED",
-              "periods": [
-                {
-                  "period": "1",
-                  "loadFTE": "0.5",
-                  "loadDay": "10",
-                  "periodDateStart": "2023-01-12T21:00:00Z",
-                  "periodDateEnd": "2023-01-22T20:59:59Z"
-                },
-                {
-                  "period": "3",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-03-12T21:00:00Z",
-                  "periodDateEnd": "2023-03-22T20:59:59Z"
-                },
-                {
-                  "period": "6",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2023-06-22T21:00:00Z",
-                  "periodDateEnd": "2023-06-31T20:59:59Z"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "projectName": "Наименование проекта / инициативы",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692b273",
-          "projectNumber": "02.43.12",
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692b272",
-              "requestStatus": "AGREED",
-              "periods": [
-                {
-                  "period": "2",
-                  "loadFTE": "0.1",
-                  "loadDay": "2",
-                  "periodDateStart": "2023-02-12T21:00:00Z",
-                  "periodDateEnd": "2023-02-22T20:59:59Z"
-                },
-                {
-                  "period": "4",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-04-12T21:00:00Z",
-                  "periodDateEnd": "2023-04-22T20:59:59Z"
-                },
-                {
-                  "period": "7",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2023-07-22T21:00:00Z",
-                  "periodDateEnd": "2023-07-31T20:59:59Z"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "projectName": "Создание интегрированной системы пожарной безопасности",
-          "projectId": "a5f4e16a-b673-11ed-8512-00505692b274",
-          "projectNumber": "02.43.12",
-          "requests": [
-            {
-              "requestId": "a5f4e16a-b673-11ed-8512-00505692b272",
-              "requestStatus": "AGREED",
-              "periods": [
-                {
-                  "period": "1",
-                  "loadFTE": "0.5",
-                  "loadDay": "10",
-                  "periodDateStart": "2023-01-12T21:00:00Z",
-                  "periodDateEnd": "2023-01-22T20:59:59Z"
-                },
-                {
-                  "period": "8",
-                  "loadFTE": "0.1",
-                  "loadDay": "2",
-                  "periodDateStart": "2023-08-12T21:00:00Z",
-                  "periodDateEnd": "2023-08-22T20:59:59Z"
-                },
-                {
-                  "period": "10",
-                  "loadFTE": "0.3",
-                  "loadDay": "6",
-                  "periodDateStart": "2023-10-12T21:00:00Z",
-                  "periodDateEnd": "2023-10-22T20:59:59Z"
-                },
-                {
-                  "period": "1",
-                  "loadFTE": "0.2",
-                  "loadDay": "4",
-                  "periodDateStart": "2024-01-22T21:00:00Z",
-                  "periodDateEnd": "2024-01-31T20:59:59Z"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+    ],
+    "gantPeriods": {
+        "periodDateStart": "2023-01-01T13:24:01+03:00",
+        "periodDateEnd": "2024-09-30T13:24:01+03:00"
     }
-  ],
-  "gantPeriods": {
-    "periodDateStart": "2022-12-31T21:00:00Z",
-    "periodDateEnd": "2024-04-31T20:59:59Z"
-  }
 }

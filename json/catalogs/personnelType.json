@@ -1,0 +1,14 @@
+[
+    {
+        "id": "personnelType-id-0",
+        "name": "Тип персонала"
+    },
+    {
+        "id": "personnelType-id-1",
+        "name": "Тип персонала 1"
+    },
+    {
+        "id": "personnelType-id-2",
+        "name": "Тип персонала 2"
+    }
+]

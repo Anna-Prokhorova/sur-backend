@@ -1,132 +1,122 @@
-{
-  "requests": [
+[
     {
-      "requestId": "1",
-      "name": "Иванов Иван Викторович",
-      "mail": "Ivanov.IV@company.ru",
-      "img": "/assets/avatar.svg",
-      "projectRoleId": "role-type-id-1",
-      "positionId": "880e2eca-c3d1-11ed-9c9c-00505692a275",
-      "roleNameId": "b7dec2fc-73e1-11ee-9fd1-00505692a275",
-      "load": 0.5,
-      "dateStart": "2023-09-27T13:24:01+03:00",
-      "dateEnd": "2023-09-30T13:24:01+03:00",
-      "status": "on_approval",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "recruitmentId": "1a33ac06-5d26-11ee-81e5-00505692a275",
-      "project": {
-        "id": "project-id-0",
-        "favorite": true,
-        "projectCode": "02.43.12",
-        "name": "Дооснощение потоков УПВ",
-        "programName": "Программа 2: \"Нефтеконтроль\"",
-        "portfolioName": "КПАП",
-        "executive": {
-          "id": "user-id-0",
-          "name": "Константинопольский А.А1",
-          "img": "/assets/avatar.svg",
-          "positionId": "position-id-0",
-          "mail": "Ivanov.II@company.com",
-          "phone": "(999) 99999"
-        },
+        "requestId": "1",
+        "projectId": "project-id-0",
+        "projectRoleId": "role-type-id-1",
+        "load": 0.5,
         "dateStart": "2023-09-27T13:24:01+03:00",
-        "dateEnd": "2023-09-28T13:24:01+03:00",
-        "projectMembers": [
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg"
+        "dateEnd": "2023-09-30T13:24:01+03:00",
+        "status": "ON_APPROVAL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "recruitmentId": "recruitments-id-100",
+        "employeeId": "employee-id-0",
+        "employeeNumber": "191144",
+        "name": "Петров Петр Петрович",
+        "position": "position-id-0",
+        "mail": "Ivanov.IV@company.ru",
+        "employeeRating": 5,
+        "img64": "/assets/avatar.svg",
+        "roleName": "Специалист",
+        "rating": {
+            "ratingList": [
+                {
+                    "answerId": "answer-id-0",
+                    "order": 1
+                }
+            ],
+            "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "history": [
+            {
+                "status": "ON_APPROVAL",
+                "statusDate": "2024-02-17T11:24:45+03:00",
+                "reasonId": "reason-id-1",
+                "comment": "Сотрудник на больничном"
+            }
         ],
-        "status": "team_formed",
-        "projectDescription": "Описание проекта",
-        "projectGoal": "Цель проекта",
-        "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
-        "projectLink": "https://smp.gazprom-neft.local/UPV_project"
-      },
-      "rating": {
-        "ratingList": [
-          {
-            "answerId": "b7dec2fc-73e1-11ee-9fd1-00505692a275",
-            "order": 1
-          }
-        ],
-        "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      "history": [
-        {
-          "status": "ON_APPROVAL",
-          "statusDate": "2024-02-17T11:24:45+03:00",
-          "reasonId": "5b234866-56c8-11ee-85e7-00505692a275",
-          "comment": "Сотрудник на больничном"
+        "project": {
+            "id": "project-id-1",
+            "favorite": true,
+            "projectCode": "02.43.12",
+            "name": "Пакет ГК 2 пок.",
+            "programName": "Программа 2: \"Нефтеконтроль\"",
+            "portfolioName": "КПАП",
+            "executive": {
+                "id": "user-id-0",
+                "name": "Константинопольский А.А",
+                "img64": "/assets/avatar.svg",
+                "position": "Главный инженер",
+                "mail": "Petrov.II@company.com",
+                "phone": "(999) 99999"
+            },
+            "dateStart": "2023-09-27T13:24:01+03:00",
+            "dateEnd": "2023-09-28T13:24:01+03:00",
+            "status": "team_formed",
+            "projectDescription": "Описание проекта",
+            "projectGoal": "Цель проекта",
+            "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
+            "projectLink": "url"
         }
-      ]
     },
     {
-      "requestId": "2",
-      "name": "Иванов Иван Викторович2",
-      "mail": "Ivanov.IV@company.ru",
-      "img": "/assets/avatar.svg",
-      "projectRoleId": "role-type-id-1",
-      "positionId": "880e2eca-c3d1-11ed-9c9c-00505692a275",
-      "roleNameId": "b7dec2fc-73e1-11ee-9fd1-00505692a275",
-      "load": 0.5,
-      "dateStart": "2023-09-27T13:24:01+03:00",
-      "dateEnd": "2023-09-30T13:24:01+03:00",
-      "status": "on_approval",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "recruitmentId": "1a33ac06-5d26-11ee-81e5-00505692a275",
-      "project": {
-        "id": "project-id-0",
-        "favorite": true,
-        "projectCode": "02.43.12",
-        "name": "Дооснощение потоков УПВ",
-        "programName": "Программа 2: \"Нефтеконтроль\"",
-        "portfolioName": "КПАП",
-        "executive": {
-          "id": "user-id-0",
-          "name": "Константинопольский А.А2",
-          "img": "/assets/avatar.svg",
-          "positionId": "position-id-0",
-          "mail": "Ivanov.II@company.com",
-          "phone": "(999) 99999"
-        },
+        "requestId": "2",
+        "projectId": "project-id-1",
+        "projectRoleId": "role-type-id-1",
+        "load": 0.5,
         "dateStart": "2023-09-27T13:24:01+03:00",
-        "dateEnd": "2023-09-28T13:24:01+03:00",
-        "projectMembers": [
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg",
-          "/assets/avatar.svg"
+        "dateEnd": "2023-09-30T13:24:01+03:00",
+        "status": "ON_APPROVAL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "recruitmentId": "recruitments-id-10",
+        "employeeId": "employee-id-0",
+        "employeeNumber": "191144",
+        "name": "Иванов Иван Викторович",
+        "position": "position-id-0",
+        "mail": "Ivanov.IV@company.ru",
+        "employeeRating": 4,
+        "img64": "/assets/avatar.svg",
+        "roleName": "Специалист",
+        "rating": {
+            "ratingList": [
+                {
+                    "answerId": "answer-id-0",
+                    "order": 1
+                }
+            ],
+            "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "history": [
+            {
+                "status": "ON_APPROVAL",
+                "statusDate": "2024-02-17T11:24:45+03:00",
+                "reasonId": "reason-id-1",
+                "comment": "Сотрудник на больничном"
+            }
         ],
-        "status": "team_formed",
-        "projectDescription": "Описание проекта",
-        "projectGoal": "Цель проекта",
-        "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
-        "projectLink": "https://smp.gazprom-neft.local/UPV_project"
-      },
-      "rating": {
-        "ratingList": [
-          {
-            "answerId": "b7dec2fc-73e1-11ee-9fd1-00505692a275",
-            "order": 1
-          }
-        ],
-        "commentRating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      "history": [
-        {
-          "status": "ON_APPROVAL",
-          "statusDate": "2024-02-17T11:24:45+03:00",
-          "reasonId": "5b234866-56c8-11ee-85e7-00505692a275",
-          "comment": "Сотрудник на больничном"
+        "project": {
+            "id": "project-id-1",
+            "favorite": true,
+            "projectCode": "02.43.12",
+            "name": "Создание интегрированной системы пожарной безопасности",
+            "programName": "Программа 2: \"Нефтеконтроль\"",
+            "portfolioName": "КПАП",
+            "executive": {
+                "id": "user-id-0",
+                "name": "Константинопольский А.А",
+                "img64": "/assets/avatar.svg",
+                "position": "Главный инженер",
+                "mail": "Ivanov.II@company.com",
+                "phone": "(999) 5467"
+            },
+            "dateStart": "2023-09-27T13:24:01+03:00",
+            "dateEnd": "2023-09-28T13:24:01+03:00",
+            "status": "team_formed",
+            "projectDescription": "Описание проекта",
+            "projectGoal": "Цель проекта",
+            "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
+            "projectLink": "url"
         }
-      ]
     }
-  ]
-}
+]

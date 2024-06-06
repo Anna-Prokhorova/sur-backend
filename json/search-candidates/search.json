@@ -1,0 +1,288 @@
+{
+    "id": "search-id-0",
+    "result": {
+        "data": [
+            {
+                "id": "employee-id-0",
+                "name": "Иванов Иван Викторович",
+                "img64": "/assets/avatar.svg",
+                "mail": "Ivanov.IV@company.com",
+                "phone": [
+                    "(999)99999"
+                ],
+                "employeeNumber": "191144",
+                "rating": 4.9,
+                "positions": [
+                    {
+                        "positionsId": "position-id-0",
+                        "positionType": "MAIN",
+                        "employeeType": "Производственный персонал",
+                        "employeeCategory": "Специалисты",
+                        "capex": "текст аналитики capex",
+                        "position": "Должность сотрудника",
+                        "adress": "644040, Омская обл, г Омск, пр-кт Губкина, д. 1",
+                        "city": "Омск",
+                        "region": "Омская область",
+                        "country": "Россия",
+                        "businessDirection": "БН Переработка нефти",
+                        "block": "БЛПС",
+                        "businessUnit": "Бизнес-единица",
+                        "organization": "Компания",
+                        "structuralUnits": [
+                            "Подразделение 1"
+                        ],
+                        "roles": [
+                            {
+                                "roleType": "Руководитель проекта",
+                                "optionSpecification": "Экспертная",
+                                "function": "Переработка нефти и газа (Механика)",
+                                "specialization": "Планирование 2",
+                                "subSpecialization": "Оптимизация производственных процессов",
+                                "roleLevel": "L3",
+                                "roleName": "Специалист",
+                                "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+                                "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                            }
+                        ],
+                        "lineManager": {
+                            "name": "Петров Николай Николаевич",
+                            "mail": "petrov.nn@company.com",
+                            "img64": "/assets/avatar.svg",
+                            "phone": [
+                                "(999)99999"
+                            ],
+                            "position": "Должность"
+                        },
+                        "functionalManager": {
+                            "name": "Мясников Владимир Анатольевич",
+                            "mail": "myasnikov.va@company.com",
+                            "img64": "/assets/avatar.svg",
+                            "phone": [
+                                "(999)99999"
+                            ],
+                            "position": "Должность"
+                        }
+                    }
+                ],
+                "competence": [
+                    {
+                        "competenceGroupName": "Наименование группы компетенций",
+                        "competenceGroupElements": [
+                            {
+                                "competenceName": "Наименование компетенции",
+                                "competenceScore": 4
+                            }
+                        ]
+                    }
+                ],
+                "relocationType": "READY",
+                "relocations": [],
+                "education": "Высшее",
+                "scienceDegree": "научная степень",
+                "educationLevel": "Магистратура",
+                "academicTitle": "Ученое звание",
+                "gender": "FEMALE",
+                "birthday": "09.02.1991",
+                "age": 32,
+                "citizenship": "Россия",
+                "reserve": true,
+                "skills": [
+                    "Целеустремленность"
+                ],
+                "languageAbsence": true,
+                "languages": [
+                    {
+                        "language": "Язык",
+                        "languageLevel": "Уровень"
+                    }
+                ],
+                "workBook": [
+                    {
+                        "workBookDateStart": "2023-09-27T13:24:01+03:00",
+                        "workBookDateEnd": "2024-09-27T13:24:01+03:00",
+                        "workBookBusinessUnit": "Бизнес-единица",
+                        "workBookCompany": "Наименование компании",
+                        "workBookDivision": "Подразделение",
+                        "workBookSpeciality": "Специальность",
+                        "workBookDismissalReason": "Причина увольнения"
+                    }
+                ],
+                "coachingStatus": "Статус внутреннего тренерства",
+                "cathedraName": "Наименование кафедры",
+                "coachingType": "Тип внутреннего тренерства",
+                "employeeRatings": [
+                    {
+                        "yearRating": "2024",
+                        "contributionEvaluation": 5,
+                        "regularAssessment": 5,
+                        "functionalCompetencies": 5,
+                        "potentialPromotion": 5,
+                        "leadershipCompetencies": 5,
+                        "corporateCompetencies": 5
+                    }
+                ],
+                "personnelReserve": [
+                    {
+                        "reserveType": "Тип резерва",
+                        "reserveBusinessUnit": "Бизнес-единица резерва",
+                        "reserveOrganization": "",
+                        "reserveStructuralUnits": [
+                            "Подразделение 1"
+                        ],
+                        "reservePosition": "Должность"
+                    }
+                ],
+                "targetRoleNotPlanned": true,
+                "targetRole": [
+                    {
+                        "targetRoleName": "Целевая роль",
+                        "targetRoleType": "Тип",
+                        "targetRoleFunction": "Функция",
+                        "targetRoleFamilySpecialties": "Семейство специальностей/Профессиональное направление"
+                    }
+                ]
+            },
+            {
+                "id": "employee-id-1",
+                "name": "Петров Иван Петрович",
+                "img64": "/assets/avatar.svg",
+                "mail": "Petrov.IV@company.com",
+                "phone": [
+                    "(999)99999"
+                ],
+                "employeeNumber": "191144",
+                "rating": 4.9,
+                "positions": [
+                    {
+                        "positionsId": "position-id-1",
+                        "positionType": "MAIN",
+                        "employeeType": "Обслуживающий персонал",
+                        "employeeCategory": "Специалисты",
+                        "capex": "текст аналитики capex",
+                        "position": "Менеджер",
+                        "adress": "644040, Московская обл, г Москва, пр-кт Губкина, д. 1",
+                        "city": "Москва",
+                        "region": "Московская область",
+                        "country": "Россия",
+                        "businessDirection": "БН Переработка нефти",
+                        "block": "БЛПС",
+                        "businessUnit": "Бизнес-единица",
+                        "organization": "Компания",
+                        "structuralUnits": [
+                            "Подразделение 2"
+                        ],
+                        "roles": [
+                            {
+                                "roleType": "Руководитель проекта",
+                                "optionSpecification": "Экспертная",
+                                "function": "Переработка нефти и газа (Механика)",
+                                "specialization": "Планирование 2",
+                                "subSpecialization": "Оптимизация производственных процессов",
+                                "roleLevel": "L1",
+                                "roleName": "Специалист",
+                                "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+                                "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                            }
+                        ],
+                        "lineManager": {
+                            "name": "Петров Николай Николаевич",
+                            "mail": "petrov.nn@company.com",
+                            "img64": "/assets/avatar.svg",
+                            "phone": [
+                                "(999)99999"
+                            ],
+                            "position": "Должность"
+                        },
+                        "functionalManager": {
+                            "name": "Мясников Владимир Анатольевич",
+                            "mail": "myasnikov.va@company.com",
+                            "img64": "/assets/avatar.svg",
+                            "phone": [
+                                "(999)99999"
+                            ],
+                            "position": "Должность"
+                        }
+                    }
+                ],
+                "competence": [
+                    {
+                        "competenceGroupName": "Наименование группы компетенций",
+                        "competenceGroupElements": [
+                            {
+                                "competenceName": "Наименование компетенции",
+                                "competenceScore": 4
+                            }
+                        ]
+                    }
+                ],
+                "relocationType": "READY",
+                "relocations": [],
+                "education": "Высшее",
+                "scienceDegree": "научная степень",
+                "educationLevel": "Магистратура",
+                "academicTitle": "Ученое звание",
+                "gender": "FEMALE",
+                "birthday": "09.02.1991",
+                "age": 32,
+                "citizenship": "Россия",
+                "reserve": true,
+                "skills": [
+                    "Целеустремленность"
+                ],
+                "languageAbsence": true,
+                "languages": [
+                    {
+                        "language": "Язык",
+                        "languageLevel": "Уровень"
+                    }
+                ],
+                "workBook": [
+                    {
+                        "workBookDateStart": "2023-09-27T13:24:01+03:00",
+                        "workBookDateEnd": "2024-09-27T13:24:01+03:00",
+                        "workBookBusinessUnit": "Бизнес-единица",
+                        "workBookCompany": "Наименование компании",
+                        "workBookDivision": "Подразделение",
+                        "workBookSpeciality": "Специальность",
+                        "workBookDismissalReason": "Причина увольнения"
+                    }
+                ],
+                "coachingStatus": "Статус внутреннего тренерства",
+                "cathedraName": "Наименование кафедры",
+                "coachingType": "Тип внутреннего тренерства",
+                "employeeRatings": [
+                    {
+                        "yearRating": "2024",
+                        "contributionEvaluation": 5,
+                        "regularAssessment": 5,
+                        "functionalCompetencies": 5,
+                        "potentialPromotion": 5,
+                        "leadershipCompetencies": 5,
+                        "corporateCompetencies": 5
+                    }
+                ],
+                "personnelReserve": [
+                    {
+                        "reserveType": "Резерв",
+                        "reserveBusinessUnit": "Бизнес-единица резерва",
+                        "reserveOrganization": "",
+                        "reserveStructuralUnits": [
+                            "Подразделение 1"
+                        ],
+                        "reservePosition": "Должность"
+                    }
+                ],
+                "targetRoleNotPlanned": true,
+                "targetRole": [
+                    {
+                        "targetRoleName": "Целевая роль",
+                        "targetRoleType": "Тип",
+                        "targetRoleFunction": "Функция",
+                        "targetRoleFamilySpecialties": "Семейство специальностей/Профессиональное направление"
+                    }
+                ]
+            }
+        ],
+        "itemsCount": 2
+    }
+}

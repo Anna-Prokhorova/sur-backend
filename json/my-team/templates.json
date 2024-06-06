@@ -1,1 +1,11 @@
-[{"id":"template-id-0","name":"Очень важный шаблон","content":["gender","birthday","age"]}]
+[
+    {
+        "id": "template-id-0",
+        "name": "Очень важный шаблон",
+        "content": [
+            "gender",
+            "birthday",
+            "age"
+        ]
+    }
+]

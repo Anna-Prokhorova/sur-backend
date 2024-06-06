@@ -14,6 +14,50 @@ teamFormationRoutes.get("/api_frontend/catalogs/list/projects", (req, res) => {
     sendAnswer(res, json);
   }
 });
+teamFormationRoutes.post("/api_frontend/projects/list", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`projects`, "team-formation");
+    sendAnswer(res, json);
+  }
+});
+
+teamFormationRoutes.post(
+  "/api_frontend/projects/write",
+  bodyParser.json(),
+  (req, res) => {
+    const isError = processErrors(res);
+    if (!isError) {
+      const projects = getJson(`projects`, "team-formation");
+      const allProjects = JSON.parse(projects);
+
+      targetProject =
+        allProjects.find((project) => {
+          return project.id === req.body.id;
+        }) || null;
+
+      const filteredProjects = allProjects.filter((project) => {
+        return project.id !== req.body.id;
+      });
+
+      if (targetProject) {
+        targetProject.implementation = req.body.implementation;
+        targetProject.stage = req.body.stage;
+        try {
+          fs.writeFileSync(
+            path.join(__dirname, `../json/team-formation/projects.json`),
+            JSON.stringify([...filteredProjects, targetProject])
+          );
+        } catch (error) {
+          console.error("Error processing the request:", error);
+          return send404Error(res);
+        }
+      }
+      const json = JSON.stringify(targetProject);
+      sendAnswerFast(res, json);
+    }
+  }
+);
 
 teamFormationRoutes.post("/api_frontend/favorites/write", (req, res) => {
   const isError = processErrors(res);
@@ -23,7 +67,7 @@ teamFormationRoutes.post("/api_frontend/favorites/write", (req, res) => {
   }
 });
 
-teamFormationRoutes.post(
+teamFormationRoutes.put(
   "/api_frontend/requests/write",
   bodyParser.json(),
   async (req, res) => {

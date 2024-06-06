@@ -1,0 +1,14 @@
+[
+    {
+        "id": "education-id-0",
+        "name": "Высшее"
+    },
+    {
+        "id": "education-id-1",
+        "name": "Среднее"
+    },
+    {
+        "id": "education-id-2",
+        "name": "Среднее-специальное"
+    }
+]

@@ -7,7 +7,7 @@ const requestResources = express.Router();
 
 const { getJson, sendAnswer } = util;
 
-requestResources.get("/api_frontend/workloads", (req, res) => {
+requestResources.get("/api_frontend/workload", (req, res) => {
   const json = getJson(`gant${req.query.id}`, "request-resources");
   sendAnswer(res, json);
 });

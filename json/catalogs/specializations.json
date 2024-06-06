@@ -1,14 +1,20 @@
 [
   {
     "id": "specialization-id-0",
-    "name": "Планирование ТОиР и ППОФ"
+    "name": "Планирование ТОиР и ППОФ",
+    "functionId": "function-id-0",
+    "functionalDirectionId": "functionalDirection-id-0"
   },
   {
     "id": "specialization-id-1",
-    "name": "Планирование 2"
+    "name": "Планирование 2",
+    "functionId": "function-id-1",
+    "functionalDirectionId": "functionalDirection-id-1"
   },
   {
     "id": "specialization-id-2",
-    "name": "Планирование 3"
+    "name": "Планирование 3",
+    "functionId": "function-id-2",
+    "functionalDirectionId": "functionalDirection-id-2"
   }
 ]

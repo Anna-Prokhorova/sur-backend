@@ -1,0 +1,10 @@
+[
+    {
+        "id": "costType-id-0",
+        "name": "CAPEX"
+    },
+    {
+        "id": "costType-id-1",
+        "name": "OPEX"
+    }
+]

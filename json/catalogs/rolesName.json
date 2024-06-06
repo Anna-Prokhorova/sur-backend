@@ -1,14 +1,26 @@
 [
   {
     "id": "role-name-id-0",
-    "name": "Производство катализаторов"
+    "name": "Производство катализаторов",
+    "functionId": "function-id-0",
+    "functionalDirectionId": "functionalDirection-id-0",
+    "specializationId": "specialization-id-0",
+    "subSpecializationId": "subspecialization-id-0"
   },
   {
     "id": "role-name-id-1",
-    "name": "Производство двигателей"
+    "name": "Производство двигателей",
+    "functionId": "function-id-1",
+    "functionalDirectionId": "functionalDirection-id-1",
+    "specializationId": "specialization-id-1",
+    "subSpecializationId": "subspecialization-id-1"
   },
   {
     "id": "role-name-id-2",
-    "name": "Производство электрооборудования"
+    "name": "Производство электрооборудования",
+    "functionId": "function-id-2",
+    "functionalDirectionId": "functionalDirection-id-2",
+    "specializationId": "specialization-id-2",
+    "subSpecializationId": "subspecialization-id-2"
   }
 ]

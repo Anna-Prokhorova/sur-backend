@@ -1,0 +1,14 @@
+[
+    {
+        "id": "languageLevel-id-0",
+        "name": "Начальный"
+    },
+    {
+        "id": "languageLevel-id-1",
+        "name": "Средний"
+    },
+    {
+        "id": "languageLevel-id-2",
+        "name": "Высокий"
+    }
+]

@@ -1,0 +1,196 @@
+{
+    "reference": {
+        "organization": "Название организации",
+        "structuralUnits": [
+            "Подразделение 1",
+            "Подразделение 2"
+        ],
+        "position": "Должность",
+        "role": "роль",
+        "region": "Москва",
+        "competence": [
+            {
+                "competenceGroupId": "Группа ID",
+                "competenceGroupName": "Название группы",
+                "competenceGroupElements": [
+                    {
+                        "competenceId": "ID компетенции",
+                        "competenceName": "Название компетенции",
+                        "competenceScore": 4.5
+                    }
+                ]
+            }
+        ],
+        "finalCompetenceScore": "5.0",
+        "ratings": {
+            "contributionEvaluation": "4",
+            "regularAssessment": "4",
+            "functionalCompetencies": "3",
+            "potentialPromotion": "4",
+            "leadershipCompetencies": "5",
+            "corporateCompetencies": "5"
+        }
+    },
+    "comparison": [
+        {
+            "organization": "Предприятие 2",
+            "structuralUnits": [
+                "Подразделение 2"
+            ],
+            "position": "Менеджер",
+            "role": "роль",
+            "targetRole": [
+                "целевая роль"
+            ],
+            "personnelReserve": [
+                {
+                    "reserveType": "Тип резерва",
+                    "reservePosition": "Должность",
+                    "reserveOrganization": "Организация",
+                    "reserveStructuralUnits": [
+                        "Подразделение 1"
+                    ]
+                }
+            ],
+            "region": "Москва",
+            "relocationType": "",
+            "relocations": [
+                "Москва",
+                "Санкт-Петербург"
+            ],
+            "age": "25",
+            "basicEducation": [
+                {
+                    "basicEducationDateStart": "2022-10-11T16:26:07+03:00",
+                    "basicEducationDateEnd": "2022-10-11T16:26:07+03:00",
+                    "basicEducationPlace": "Универ",
+                    "basicEducationFaculty": "Факультет",
+                    "basicEducationSpeciality": "Специальность",
+                    "basicEducationQualification": "Квалификация"
+                }
+            ],
+            "workBook": [
+                {
+                    "workBookDateStart": "2022-10-11T16:26:07+03:00",
+                    "workBookDateEnd": "2022-10-11T16:26:07+03:00",
+                    "workBookCompany": "Компания",
+                    "workBookSpeciality": "Должность"
+                }
+            ],
+            "experienceProfession": "Опыт работы по профессии",
+            "experienceManeger": "Опыт управления",
+            "languages": [
+                {
+                    "language": "Английский",
+                    "languageLevel": "L2"
+                }
+            ],
+            "competence": [
+                {
+                    "competenceGroupId": "Группа ID",
+                    "competenceGroupName": "Название группы",
+                    "competenceGroupElements": [
+                        {
+                            "competenceId": "id",
+                            "competenceName": "Название",
+                            "competenceScore": 3.5
+                        }
+                    ]
+                }
+            ],
+            "finalCompetenceScore": "5.0",
+            "ratings": {
+                "contributionEvaluation": "4",
+                "regularAssessment": "3",
+                "functionalCompetencies": "3",
+                "potentialPromotion": "5",
+                "leadershipCompetencies": "5",
+                "corporateCompetencies": "5"
+            },
+            "id": "employee-id-0",
+            "name": "Коренёв Петр Макарович",
+            "img64": "/assets/avatar.svg",
+            "rating": "5.0"
+        },
+        {
+            "organization": "Предприятие 3",
+            "structuralUnits": [
+                "Подразделение 2"
+            ],
+            "position": "Менеджер",
+            "role": "роль",
+            "targetRole": [
+                "целевая роль"
+            ],
+            "personnelReserve": [
+                {
+                    "reserveType": "Тип резерва",
+                    "reservePosition": "Должность",
+                    "reserveOrganization": "Организация",
+                    "reserveStructuralUnits": [
+                        "Подразделение 1"
+                    ]
+                }
+            ],
+            "region": "Москва",
+            "relocationType": "",
+            "relocations": [
+                "Москва",
+                "Санкт-Петербург"
+            ],
+            "age": "25",
+            "basicEducation": [
+                {
+                    "basicEducationDateStart": "2022-10-11T16:26:07+03:00",
+                    "basicEducationDateEnd": "2022-10-11T16:26:07+03:00",
+                    "basicEducationPlace": "Универ",
+                    "basicEducationFaculty": "Факультет",
+                    "basicEducationSpeciality": "Специальность",
+                    "basicEducationQualification": "Квалификация"
+                }
+            ],
+            "workBook": [
+                {
+                    "workBookDateStart": "2022-10-11T16:26:07+03:00",
+                    "workBookDateEnd": "2022-10-11T16:26:07+03:00",
+                    "workBookCompany": "Компания",
+                    "workBookSpeciality": "Должность"
+                }
+            ],
+            "experienceProfession": "Опыт работы по профессии",
+            "experienceManeger": "Опыт управления",
+            "languages": [
+                {
+                    "language": "Английский",
+                    "languageLevel": "L2"
+                }
+            ],
+            "competence": [
+                {
+                    "competenceGroupId": "Группа ID",
+                    "competenceGroupName": "Название группы",
+                    "competenceGroupElements": [
+                        {
+                            "competenceId": "id",
+                            "competenceName": "Название",
+                            "competenceScore": 4.5
+                        }
+                    ]
+                }
+            ],
+            "finalCompetenceScore": "5.0",
+            "ratings": {
+                "contributionEvaluation": "4",
+                "regularAssessment": "3",
+                "functionalCompetencies": "3",
+                "potentialPromotion": "5",
+                "leadershipCompetencies": "5",
+                "corporateCompetencies": "5"
+            },
+            "id": "employee-id-0",
+            "name": "Иванов Иван Иванович",
+            "img64": "/assets/avatar.svg",
+            "rating": "4.9"
+        }
+    ]
+}

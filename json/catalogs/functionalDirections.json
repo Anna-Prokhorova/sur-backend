@@ -1,0 +1,17 @@
+[
+    {
+        "id": "functionalDirection-id-0",
+        "name": "Техническое обслуживание и ремонт (БЛПС)",
+        "functionId": "function-id-0"
+    },
+    {
+        "id": "functionalDirection-id-1",
+        "name": "Электротехническое оборудование и технологии (БЛТП)",
+        "functionId": "function-id-1"
+    },
+    {
+        "id": "functionalDirection-id-2",
+        "name": "Стратегические продажи и маркетинг (БЛС)",
+        "functionId": "function-id-2"
+    }
+]

@@ -74,4 +74,36 @@ myTeamRoutes.get("/api_frontend/persons/list/xlsx", (req, res) => {
   }
 });
 
+myTeamRoutes.post("/api_frontend/persons/listMyTeam", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`listMyTeam`, "my-team");
+    sendAnswer(res, json);
+  }
+});
+myTeamRoutes.post("/api_frontend/persons/listFormation", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    const json = getJson(`listFormation`, "my-team");
+    sendAnswer(res, json);
+  }
+});
+
+myTeamRoutes.get("/api_frontend/persons/getPersonMyTeam", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    let json;
+    json = getJson(`personMyTeam`, "my-team");
+    sendAnswer(res, json);
+  }
+});
+myTeamRoutes.get("/api_frontend/persons/getPersonFormation", (req, res) => {
+  const isError = processErrors(res);
+  if (!isError) {
+    let json;
+    json = getJson(`personFormation`, "my-team");
+    sendAnswer(res, json);
+  }
+});
+
 module.exports = myTeamRoutes;
