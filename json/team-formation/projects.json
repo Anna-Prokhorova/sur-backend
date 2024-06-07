@@ -1,5 +1,53 @@
 [
     {
+        "id": "project-id-2",
+        "favorite": false,
+        "projectCode": "02.43.12",
+        "name": "Оптимизация производственных процессов",
+        "programName": {
+            "id": "program-id-2",
+            "name": "Программа 3: \"Эффективность\""
+        },
+        "portfolioName": {
+            "id": "portfolio-id-0",
+            "name": "КПАП"
+        },
+        "executive": {
+            "id": "user-id-2",
+            "executivePersonId": "user-id-2",
+            "name": "Петров А.С",
+            "img64": "/assets/avatar.svg",
+            "position": "position-id-2",
+            "mail": "Petrov.AS@company.com",
+            "phone": "(999) 99999"
+        },
+        "dateStart": "2023-09-27T13:24:01+03:00",
+        "dateEnd": "2023-09-28T13:24:01+03:00",
+        "projectMembers": [
+            {
+                "img64": "/assets/avatar.svg",
+                "name": "Иванов Иван Иванович"
+            },
+            {
+                "img64": "/assets/avatar.svg",
+                "name": "Иванов Иван Иванович"
+            }
+        ],
+        "status": "team_formed",
+        "projectDescription": "Описание проекта",
+        "projectGoal": "Цель проекта",
+        "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
+        "projectLink": "/assets/avatar.svg",
+        "stage": "DIVIMPLEMENTATION",
+        "implementation": "COMPLETED",
+        "organization": {
+            "id": "organization-id-0",
+            "name": "ООО \"Сервис\""
+        },
+        "MBO": "true",
+        "needAssessment": true
+    },
+    {
         "id": "project-id-0",
         "favorite": true,
         "projectCode": "02.43.12",
@@ -54,58 +102,10 @@
         "projectGoal": "Цель проекта",
         "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
         "projectLink": "url",
-        "stage": "INITIATIVE",
-        "implementation": "COMPLETED",
-        "organization": {
-            "id": "organization-id-1",
-            "name": "ООО \"Сервис\""
-        },
-        "MBO": "true",
-        "needAssessment": true
-    },
-    {
-        "id": "project-id-2",
-        "favorite": false,
-        "projectCode": "02.43.12",
-        "name": "Оптимизация производственных процессов",
-        "programName": {
-            "id": "program-id-2",
-            "name": "Программа 3: \"Эффективность\""
-        },
-        "portfolioName": {
-            "id": "portfolio-id-0",
-            "name": "КПАП"
-        },
-        "executive": {
-            "id": "user-id-2",
-            "executivePersonId": "user-id-2",
-            "name": "Петров А.С",
-            "img64": "/assets/avatar.svg",
-            "position": "position-id-2",
-            "mail": "Petrov.AS@company.com",
-            "phone": "(999) 99999"
-        },
-        "dateStart": "2023-09-27T13:24:01+03:00",
-        "dateEnd": "2023-09-28T13:24:01+03:00",
-        "projectMembers": [
-            {
-                "img64": "/assets/avatar.svg",
-                "name": "Иванов Иван Иванович"
-            },
-            {
-                "img64": "/assets/avatar.svg",
-                "name": "Иванов Иван Иванович"
-            }
-        ],
-        "status": "team_formed",
-        "projectDescription": "Описание проекта",
-        "projectGoal": "Цель проекта",
-        "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
-        "projectLink": "/assets/avatar.svg",
-        "stage": "DIVIMPLEMENTATION",
+        "stage": "EXPLOITATION",
         "implementation": "ACTIVE",
         "organization": {
-            "id": "organization-id-0",
+            "id": "organization-id-1",
             "name": "ООО \"Сервис\""
         },
         "MBO": "true",
@@ -146,7 +146,7 @@
         "projectGoal": "Цель проекта",
         "projectTasks": "1. Разработка проектной документации 2. Получение заключений ГГЭ",
         "projectLink": "/assets/avatar.svg",
-        "stage": "EVALUATION",
+        "stage": "DEFINITION",
         "implementation": "NOTSTARTED",
         "organization": {
             "id": "organization-id-0",

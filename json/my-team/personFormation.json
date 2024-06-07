@@ -10,6 +10,57 @@
             "basicEducationQualification": "Квалификация"
         }
     ],
+    "positions": [
+        {
+            "positionType": "MAIN",
+            "positionId": "position-id-0",
+            "employeeType": "Производственный персонал",
+            "employeeCategory": "Специалисты",
+            "capex": "текст аналитики capex",
+            "position": "Должность сотрудника",
+            "adress": "644040, Омская обл, г Омск, пр-кт Губкина, д. 1",
+            "city": "Омск",
+            "region": "Омская область",
+            "country": "Россия",
+            "businessDirection": "БН Переработка нефти",
+            "block": "БЛПС",
+            "organization": "Компания",
+            "structuralUnits": [
+                "Подразделение 1"
+            ],
+            "roles": [
+                {
+                    "roleType": "Заместитель руководителя проекта",
+                    "optionSpecification": "Экспертная",
+                    "function": "Переработка нефти и газа (Механика)",
+                    "specialization": "Планирование 2",
+                    "subSpecializatiаon": "Оптимизация производственных процессов",
+                    "roleLevel": "L2",
+                    "roleName": "Специалист",
+                    "functionalDirection": "Техническое обслуживание и ремонт (БЛПС)",
+                    "roleDesription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                }
+            ],
+            "lineManager": {
+                "name": "Петров Николай Николаевич",
+                "mail": "petrov.nn@company.com",
+                "img64": "/assets/avatar.svg",
+                "phone": [
+                    "(999)99999"
+                ],
+                "position": "Должность"
+            },
+            "functionalManager": {
+                "name": "Мясников Владимир Анатольевич",
+                "mail": "myasnikov.va@company.com",
+                "img64": "/assets/avatar.svg",
+                "phone": [
+                    "(999)99999"
+                ],
+                "position": "Должность"
+            }
+        }
+    ],
     "education": "Высшее",
     "scienceDegree": "Научная степень",
     "educationLevel": "Уровень образования",

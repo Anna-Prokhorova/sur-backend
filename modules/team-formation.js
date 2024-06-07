@@ -30,17 +30,15 @@ teamFormationRoutes.post(
     if (!isError) {
       const projects = getJson(`projects`, "team-formation");
       const allProjects = JSON.parse(projects);
-
       targetProject =
         allProjects.find((project) => {
           return project.id === req.body.id;
         }) || null;
 
-      const filteredProjects = allProjects.filter((project) => {
-        return project.id !== req.body.id;
-      });
-
       if (targetProject) {
+        const filteredProjects = allProjects.filter((project) => {
+          return project.id !== req.body.id;
+        });
         targetProject.implementation = req.body.implementation;
         targetProject.stage = req.body.stage;
         try {
@@ -52,9 +50,65 @@ teamFormationRoutes.post(
           console.error("Error processing the request:", error);
           return send404Error(res);
         }
+        const json = JSON.stringify(targetProject);
+        sendAnswerFast(res, json);
+      } else {
+        const project = {
+          id: `request-id-${allProjects.length}`,
+          favorite: false,
+          projectCode: req.body.projectCode,
+          name: req.body.name,
+          programName: {
+            id: req.body.programName,
+            name: "Программа 3: Эффективность",
+          },
+          portfolioName: {
+            id: req.body.portfolioName,
+            name: "Исследовательские проекты",
+          },
+          executive: {
+            id: "user-id-3",
+            executivePersonId: req.body.executivePersonId,
+            name: "Петров А.С",
+            img64: "/assets/avatar.svg",
+            position: "position-id-2",
+            mail: "Petrov.AS@company.com",
+            phone: "(999) 99999",
+          },
+          dateStart: req.body.dateStart,
+          dateEnd: req.body.dateEnd,
+          projectMembers: [
+            {
+              img64: "/assets/avatar.svg",
+              name: "Иванов Иван Иванович",
+            },
+          ],
+          status: "team-formed",
+          projectDescription: req.body.projectDescription,
+          projectGoal: req.body.projectGoal,
+          projectTasks: req.body.projectTasks,
+          projectLink: req.body.projectLink,
+          stage: req.body.stage,
+          implementation: req.body.implementation,
+          organization: {
+            id: req.body.organization,
+            name: 'ООО "Сервис"',
+          },
+          MBO: req.body.MBO,
+          needAssessment: true,
+        };
+        try {
+          fs.writeFileSync(
+            path.join(__dirname, `../json/team-formation/projects.json`),
+            JSON.stringify([...allProjects, project])
+          );
+        } catch (error) {
+          console.error("Error processing the request:", error);
+          return send404Error(res);
+        }
+        const json = JSON.stringify(project);
+        sendAnswerFast(res, json);
       }
-      const json = JSON.stringify(targetProject);
-      sendAnswerFast(res, json);
     }
   }
 );
@@ -67,7 +121,7 @@ teamFormationRoutes.post("/api_frontend/favorites/write", (req, res) => {
   }
 });
 
-teamFormationRoutes.put(
+teamFormationRoutes.post(
   "/api_frontend/requests/write",
   bodyParser.json(),
   async (req, res) => {
