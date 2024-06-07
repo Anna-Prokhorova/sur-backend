@@ -67,7 +67,7 @@ teamFormationRoutes.post("/api_frontend/favorites/write", (req, res) => {
   }
 });
 
-teamFormationRoutes.put(
+teamFormationRoutes.post(
   "/api_frontend/requests/write",
   bodyParser.json(),
   async (req, res) => {
