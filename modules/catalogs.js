@@ -19,6 +19,10 @@ catalogsRoutes.get("/api_frontend/catalogs/list/regions", (req, res) => {
   const json = getJson("regions", "catalogs");
   sendAnswer(res, json);
 });
+catalogsRoutes.get("/api_frontend/catalogs/dataCurrentUser", (req, res) => {
+  const json = getJson("dataCurrentUser", "catalogs");
+  sendAnswer(res, json);
+});
 
 catalogsRoutes.get("/api_frontend/catalogs/list/citizenship", (req, res) => {
   const json = getJson("citizenship", "catalogs");

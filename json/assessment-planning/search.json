@@ -1,0 +1,141 @@
+{
+    "data": [
+        {
+            "id": "employee-id-3",
+            "employee": {
+                "name": "Круглов Андрей Васильевич",
+                "img64": "url",
+                "mail": "anisiforov@company.com",
+                "employeeNumber": "4354325"
+            },
+            "positionID": "position-id-3",
+            "businessUnit": "МНП3",
+            "organization": "Автоматика-сервис",
+            "structuralUnit": [
+                "Подразделение №2"
+            ],
+            "position": "Ведущий инженер",
+            "function": "Энергетика",
+            "functionalDirection": "Электроэнергетика",
+            "specialization": "Планирование ТОиР и ППОФ",
+            "subSpecialization": "Развитие стратегии маркетинга",
+            "roleLevel": "L2",
+            "roleName": "Специалист",
+            "profileCode": "ENERGY_78362476234",
+            "competence": [
+                {
+                    "competenceCode": "6465756765",
+                    "competenceName": "Энергоменеджмент",
+                    "competenceNormalLevel": 5,
+                    "score": 5,
+                    "criteria": "Hard Skills (PRO)",
+                    "assesmentYear": "2023-10-11T16:26:07+03:00",
+                    "status": "DONE"
+                }
+            ]
+        },
+        {
+            "id": "employee-id-4",
+            "employee": {
+                "name": "Мельников Андрей Васильевич",
+                "img64": "url",
+                "mail": "petrov@company.com",
+                "employeeNumber": "4354325"
+            },
+            "positionID": "position-id-4",
+            "businessUnit": "МНП3",
+            "organization": "Автоматика-сервис",
+            "structuralUnit": [
+                "Подразделение №3"
+            ],
+            "position": "Ведущий инженер",
+            "function": "Переработка газа",
+            "functionalDirection": "Электроэнергетика",
+            "specialization": "Система энергетического менеджмента",
+            "subSpecialization": "Оптимизация производственных процессов",
+            "roleLevel": "L2",
+            "roleName": "Специалист",
+            "profileCode": "ENERGY_78362476234",
+            "competence": [
+                {
+                    "competenceCode": "6465756765",
+                    "competenceName": "Энергоменеджмент",
+                    "competenceNormalLevel": 4,
+                    "score": 4,
+                    "criteria": "Hard Skills (PRO)",
+                    "assesmentYear": "2023-10-13T16:26:07+03:00",
+                    "status": "DONE"
+                }
+            ]
+        },
+        {
+            "id": "employee-id-5",
+            "employee": {
+                "name": "Скворцов Андрей Васильевич",
+                "img64": "url",
+                "mail": "kruglov@company.com",
+                "employeeNumber": "4354325"
+            },
+            "positionID": "position-id-5",
+            "businessUnit": "МНП3",
+            "organization": "Автоматика-сервис",
+            "structuralUnit": [
+                "Управление производственной деятельностью"
+            ],
+            "position": "Ведущий инженер",
+            "function": "Переработка нефтепродуктов",
+            "functionalDirection": "Электроэнергетика",
+            "specialization": "Планирование ТОиР и ППОФ",
+            "subSpecialization": "Внедрение системы управления качеством",
+            "roleLevel": "L1",
+            "roleName": "Специалист",
+            "profileCode": "ENERGY_78362476234",
+            "competence": [
+                {
+                    "competenceCode": "6465756765",
+                    "competenceName": "Энергоменеджмент",
+                    "competenceNormalLevel": 4,
+                    "score": 5,
+                    "criteria": "Hard Skills (PRO)",
+                    "assesmentYear": "2023-10-11T16:26:07+03:00",
+                    "status": "DONE"
+                }
+            ]
+        },
+        {
+            "id": "employee-id-6",
+            "employee": {
+                "name": "Соколов Андрей Васильевич",
+                "img64": "url",
+                "mail": "Ivanov@company.com",
+                "employeeNumber": "4354325"
+            },
+            "positionID": "position-id-6",
+            "businessUnit": "МНП3",
+            "organization": "Автоматика-сервис",
+            "structuralUnit": [
+                "Управление производственной деятельностью"
+            ],
+            "position": "Ведущий инженер",
+            "function": "Энергетика",
+            "functionalDirection": "Электроэнергетика",
+            "specialization": "Система энергетического менеджмента",
+            "subSpecialization": "Внедрение системы управления качеством",
+            "roleLevel": "L2",
+            "roleName": "Специалист",
+            "profileCode": "ENERGY_78362476234",
+            "competence": [
+                {
+                    "competenceCode": "6465756765",
+                    "competenceName": "Энергоменеджмент",
+                    "competenceNormalLevel": 5,
+                    "score": 3,
+                    "criteria": "Hard Skills (PRO)",
+                    "assesmentYear": "2023-10-11T16:26:07+03:00",
+                    "status": "NOTDONE"
+                }
+            ]
+        }
+    ],
+    "itemsCount": "4"
+}

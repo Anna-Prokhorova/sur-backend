@@ -10,6 +10,7 @@ const teamFormation = require("./modules/team-formation.js");
 const catalogs = require("./modules/catalogs.js");
 const requestResources = require("./modules/request-resources.js");
 const myTeam = require("./modules/my-team.js");
+const assessmentPlanning = require("./modules/assessment-planning.js");
 const shared = require("./modules/shared.js");
 
 const app = express();
@@ -22,6 +23,7 @@ routes.use(catalogs);
 routes.use(teamFormation);
 routes.use(requestResources);
 routes.use(myTeam);
+routes.use(assessmentPlanning);
 routes.use(shared);
 
 app.use(routes);
