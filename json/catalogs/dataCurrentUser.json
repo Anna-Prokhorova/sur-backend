@@ -1,0 +1,21 @@
+{
+    "parameters": {
+        "mainScreen": {
+            "myTeam": 7,
+            "teamFormation": 7,
+            "resourceRequest": 7,
+            "projectsAdministration": 7,
+            "searchCandidates": 7,
+            "planningAssessments": 7,
+            "requestsAssessments": 7,
+            "instructions": 7,
+            "methodology": 7,
+            "news": 7
+        },
+        "resource": {
+            "dashboards": 7,
+            "employees": 7,
+            "load": 7
+        }
+    }
+}

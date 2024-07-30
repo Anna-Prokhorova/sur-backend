@@ -1,0 +1,82 @@
+[
+    {
+        "id": "list-id-0",
+        "application": {
+            "date": "2023-10-11T16:26:07+03:00",
+            "applicationName": "№00000"
+        },
+        "employeesNumber": 120,
+        "assessmentTool": "Тестирование",
+        "functionLeader": {
+            "name": "Иванов А.А.",
+            "position": "Руководитель направления",
+            "initiatorID": "initiator-id-0",
+            "img64": "url"
+        },
+        "status": "NOTAGREED"
+    },
+    {
+        "id": "list-id-1",
+        "application": {
+            "date": "2023-10-11T16:26:07+03:00",
+            "applicationName": "№00001"
+        },
+        "employeesNumber": 246,
+        "assessmentTool": "Тестирование",
+        "functionLeader": {
+            "name": "Петров А.А.",
+            "position": "Главный инженер",
+            "initiatorID": "initiator-id-1",
+            "img64": "url"
+        },
+        "status": "AGREED"
+    },
+    {
+        "id": "list-id-2",
+        "application": {
+            "date": "2023-10-11T16:26:07+03:00",
+            "applicationName": "№00002"
+        },
+        "employeesNumber": 209,
+        "assessmentTool": "Тестирование",
+        "functionLeader": {
+            "name": "Константинопольский А.А.",
+            "position": "Руководитель направления",
+            "initiatorID": "initiator-id-2",
+            "img64": "url"
+        },
+        "status": "ONAPPROVAL"
+    },
+    {
+        "id": "list-id-3",
+        "application": {
+            "date": "2023-10-13T16:26:07+03:00",
+            "applicationName": "№00003"
+        },
+        "employeesNumber": 190,
+        "assessmentTool": "Тестирование",
+        "functionLeader": {
+            "name": "Круглов А.А.",
+            "position": "Руководитель направления",
+            "initiatorID": "initiator-id-3",
+            "img64": "url"
+        },
+        "status": "ATWORK"
+    },
+    {
+        "id": "list-id-4",
+        "application": {
+            "date": "2023-10-15T16:26:07+03:00",
+            "applicationName": "№00004"
+        },
+        "employeesNumber": 209,
+        "assessmentTool": "Тестирование",
+        "functionLeader": {
+            "name": "Смирнов А.А.",
+            "position": "Руководитель направления",
+            "initiatorID": "initiator-id-4",
+            "img64": "url"
+        },
+        "status": "DRAFT"
+    }
+]
